@@ -1,0 +1,30 @@
+version: 2
+
+seeds:
+  - name: fhir_code_systems
+    description: FHIR code-system URL -> OHDSI vocabulary_id. Unknown systems map to nothing.
+    columns:
+      - name: fhir_system
+        data_tests: [unique, not_null]
+
+  - name: race_ethnicity_map
+    description: >
+      CDC race/ethnicity codes (urn:oid:2.16.840.1.113883.6.238) -> OMOP Race/Ethnicity
+      concept codes. Needed because the CDC codes are not in the OHDSI Race vocabulary,
+      and the same strings exist as unrelated LOINC codes (2106-3 is a urine hCG test),
+      so a code-only lookup would be silently wrong. Concepts are resolved by
+      (vocabulary_id, concept_code) at run time, never by hard-coded id.
+    columns:
+      - name: source_code
+        data_tests: [unique, not_null]
+
+  - name: gender_map
+    columns:
+      - name: source_value
+        data_tests: [unique, not_null]
+
+  - name: visit_class_map
+    description: FHIR Encounter.class (v3 ActCode) -> OMOP Visit concept.
+    columns:
+      - name: class_code
+        data_tests: [unique, not_null]

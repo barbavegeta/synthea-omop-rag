@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: int_person_ids
+    columns:
+      - name: patient_id
+        data_tests: [unique, not_null]
+      - name: person_id
+        data_tests: [unique, not_null]
+
+  - name: int_visit_ids
+    columns:
+      - name: encounter_id
+        data_tests: [unique, not_null]
+      - name: visit_occurrence_id
+        data_tests: [unique, not_null]
+
+  - name: int_concept_map
+    description: One row per (source code, standard target); see mapping_status for every 0.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [fhir_system, code, target_rank]
+    columns:
+      - name: mapping_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [mapped, no_standard_mapping, code_not_in_vocabulary, unknown_code_system]
+
+  - name: int_events_mapped
+    description: Every event with its chosen coding, standard concept(s) and target domain.
+    columns:
+      - name: person_id
+        data_tests: [not_null]
+      - name: domain_id
+        data_tests: [not_null]

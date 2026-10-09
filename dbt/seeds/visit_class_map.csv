@@ -1,0 +1,6 @@
+class_code,class_meaning,vocabulary_id,concept_code,concept_name
+AMB,ambulatory,Visit,OP,Outpatient Visit
+EMER,emergency,Visit,ER,Emergency Room Visit
+IMP,inpatient encounter,Visit,IP,Inpatient Visit
+HH,home health,Visit,OMOP4822459,Home Visit
+VR,virtual,Visit,OMOP5556618,Telehealth

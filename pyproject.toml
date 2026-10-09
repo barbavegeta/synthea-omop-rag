@@ -1,0 +1,71 @@
+[project]
+name = "rwe"
+version = "0.1.0"
+description = "Synthea FHIR -> OMOP CDM v5.4 -> RAG over clinical notes, evaluated against SQL ground truth. Synthetic data only."
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+# Lower bounds only: what the code is known to need. The exact versions that
+# were actually tested are pinned in uv.lock, and CI installs with --frozen.
+dependencies = [
+    "typer>=0.12",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "dbt-core>=1.10",
+    "dbt-postgres>=1.9",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "tabulate>=0.9",
+    "bm25s>=0.2",
+    "pgvector>=0.3",
+    "anthropic>=0.70",
+]
+
+[project.optional-dependencies]
+# Local embedding model (Phase 5). Optional so CI, which uses a deterministic fake
+# embedder, never downloads PyTorch or model weights. Install with: uv sync --extra embed
+embed = [
+    "sentence-transformers>=3.0",
+    "torch>=2.5",
+]
+
+[project.scripts]
+rwe = "rwe.cli:app"
+
+# PyTorch from the CPU-only index: the default wheel pulls ~2.5 GB of CUDA libraries,
+# useless on a machine without an NVIDIA GPU.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = [
+    "pytest>=8.2",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rwe"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "db: needs a running Postgres (skipped if unreachable, unless RWE_REQUIRE_DB=1)",
+]

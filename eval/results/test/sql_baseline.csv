@@ -1,0 +1,9 @@
+template,n,patients,correct
+condition_current,85,85,"1.000 [1.000, 1.000]"
+condition_historical,95,95,"1.000 [1.000, 1.000]"
+current_medications,150,150,"1.000 [1.000, 1.000]"
+dx_date,150,150,"1.000 [1.000, 1.000]"
+family_trap,79,79,"0.987 [0.962, 1.000]"
+lab_not_documented,125,125,"1.000 [1.000, 1.000]"
+latest_lab,150,150,"1.000 [1.000, 1.000]"
+negation_trap,150,150,"1.000 [1.000, 1.000]"

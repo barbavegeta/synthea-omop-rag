@@ -1,0 +1,6 @@
+step,criterion,persons
+1,Any type 2 diabetes record (first record = index date),78
+2,Index date inside observation period,78
+3,Aged 18 or over at index,78
+4,At least one visit in the 365 days before index (observed look-back),19
+5,No type 1 diabetes record on or before index,19

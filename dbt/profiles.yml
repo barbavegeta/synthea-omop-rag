@@ -1,0 +1,14 @@
+# Connection comes from the same libpq variables as everything else (ADR-0003).
+# `rwe dbt ...` loads .env before calling dbt; nothing secret is stored here.
+rwe:
+  target: default
+  outputs:
+    default:
+      type: postgres
+      host: "{{ env_var('PGHOST') }}"
+      port: "{{ env_var('PGPORT') | as_number }}"
+      user: "{{ env_var('PGUSER') }}"
+      password: "{{ env_var('PGPASSWORD') }}"
+      dbname: "{{ env_var('PGDATABASE') }}"
+      schema: dbt
+      threads: 4

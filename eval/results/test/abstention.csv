@@ -1,0 +1,6 @@
+run_name,should_abstain,abstained,precision,recall,over_abstentions,answered_unanswerable
+test-clean-bm25,184,206,0.893,1.0,22,0
+test-clean-dense,184,266,0.692,1.0,82,0
+test-clean-hybrid,184,225,0.818,1.0,41,0
+test-clean-hybrid_recency,184,236,0.78,1.0,52,0
+test-messy-hybrid_recency,184,222,0.829,1.0,38,0

@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  - name: concept_set_members
+    columns:
+      - name: concept_id
+        data_tests: [not_null]
+
+  - name: t2dm_cohort_steps
+    columns:
+      - name: person_id
+        data_tests: [unique, not_null]
+
+  - name: cohort
+    description: OHDSI results-schema COHORT table.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments: {combination_of_columns: [cohort_definition_id, subject_id, cohort_start_date]}
+      - dbt_utils.expression_is_true:
+          arguments: {expression: "cohort_end_date >= cohort_start_date"}
+    columns:
+      - name: subject_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('person'), field: person_id}
+
+  - name: t2dm_baseline
+    columns:
+      - name: person_id
+        data_tests: [unique, not_null]
+
+  - name: t2dm_metformin_eras
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments: {combination_of_columns: [person_id, era_number]}
+      - dbt_utils.expression_is_true:
+          arguments: {expression: "era_end_date >= era_start_date"}
+
+unit_tests:
+  - name: metformin_eras_merge_exposures_within_30_day_gap
+    description: >
+      Exposures ending 2020-01-30 and starting 2020-02-20 (21-day gap) merge into one era;
+      one starting 2020-06-01 (more than 30 days after 2020-03-20) starts a second era.
+    model: t2dm_metformin_eras
+    given:
+      - input: ref('drug_exposure')
+        rows:
+          - {person_id: 1, drug_concept_id: 10, drug_exposure_start_date: "2020-01-01", drug_exposure_end_date: "2020-01-30"}
+          - {person_id: 1, drug_concept_id: 10, drug_exposure_start_date: "2020-02-20", drug_exposure_end_date: "2020-03-20"}
+          - {person_id: 1, drug_concept_id: 10, drug_exposure_start_date: "2020-06-01", drug_exposure_end_date: "2020-06-30"}
+      - input: ref('concept_set_members')
+        rows: [{concept_set: metformin, concept_id: 10}]
+      - input: ref('cohort')
+        rows: [{cohort_definition_id: 1, subject_id: 1}]
+    expect:
+      rows:
+        - {person_id: 1, era_number: 1, era_start_date: "2020-01-01", era_end_date: "2020-03-20", exposure_count: 2}
+        - {person_id: 1, era_number: 2, era_start_date: "2020-06-01", era_end_date: "2020-06-30", exposure_count: 1}

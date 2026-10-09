@@ -1,0 +1,31 @@
+# Single Postgres instance for everything: raw FHIR, vocabularies, OMOP CDM,
+# notes and vector embeddings (pgvector). See docs/decisions/ADR-0003.
+services:
+  db:
+    # Pinned by digest: a tag like pg17 can be re-pushed, a digest cannot. pgvector 0.8.7.
+    image: pgvector/pgvector:pg17@sha256:ac08538c6f8b9904c33c8224c5e5706dbe760aca29db1d096972b4052c22a75d
+    environment:
+      POSTGRES_USER: ${PGUSER:-rwe}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-rwe_local_only}
+      POSTGRES_DB: ${PGDATABASE:-rwe}
+    ports:
+      # Host port 5433 so this never collides with a Postgres you may already run on 5432.
+      - "${PGPORT:-5433}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # Settings sized for a ~8 GB WSL VM; the vocabulary load and HNSW index build benefit most.
+    command: >
+      postgres
+      -c shared_buffers=1GB
+      -c work_mem=64MB
+      -c maintenance_work_mem=1GB
+      -c max_wal_size=4GB
+    shm_size: 1g
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  pgdata:

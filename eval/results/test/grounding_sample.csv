@@ -1,0 +1,2933 @@
+claim_id,question,claim,claim_date,cited_excerpts,supported_by_excerpts (yes/no),note
+c002,"Is there a family history of prediabetes, and if so in which relative?",Father: Prediabetes,15/08/2021,"Outpatient note, 2017-09-10:
+OUTPATIENT NOTE
+Date: 2017-09-10
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 2007-05-20
+- Dental caries, diagnosed 2007-05-20
+- Tooth eruption disorder, diagnosed 2009-06-07
+- Anemia, diagnosed 2017-07-16
+- Normal pregnancy, diagnosed 2017-07-16
+- history of Acute viral pharyngitis, resolved 2016-04-06
+
+FAMILY HISTORY
+Father: Prediabetes.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, blurred vision, nausea.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2021-08-15:
+solved 2021-01-23
+- h/o Fever, resolved 2021-01-23
+- history of Hypoxemia, resolved 2021-01-23
+- history of Wheezing, resolved 2021-01-23
+- h/o Cough, resolved 2021-01-23
+- h/o Dyspnea, resolved 2021-01-23
+- history of Muscle pain, resolved 2021-01-23
+- history of Respiratory distress, resolved 2021-01-23
+- h/o Pneumonia, resolved 2021-01-23
+- history of Sore throat, resolved 2021-01-23
+- h/o Acute pulmonary embolism, resolved 2021-01-23
+
+FAMILY HISTORY
+Father: Prediabetes.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen (last prescribed 2020-06-04); norethindrone (last prescribed 2020-04-04).
+
+REVIEW OF SYSTEMS
+Denies palpitations, fever, cough.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2017-11-05:
+OUTPATIENT NOTE
+Date: 2017-11-05
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 2007-05-20
+- Dental caries, diagnosed 2007-05-20
+- Tooth eruption disorder, diagnosed 2009-06-07
+- Anemia, diagnosed 2017-07-16
+- Normal pregnancy, diagnosed 2017-07-16
+- h/o Acute viral pharyngitis, resolved 2016-04-06
+
+FAMILY HISTORY
+Father: Prediabetes.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies dizziness, CP, blurred vision.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2016-03-29:
+OUTPATIENT NOTE
+Date: 2016-03-29
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 2007-05-20
+- Chronic periodontitis, diagnosed 2007-05-20
+- Tooth eruption disorder, diagnosed 2009-06-07
+- Acute viral pharyngitis, diagnosed 2016-03-29
+
+FAMILY HISTORY
+Father: Prediabetes.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: norethindrone (last prescribed 2015-04-13).
+
+REVIEW OF SYSTEMS
+Denies weight loss, leg swelling, abdominal pain.
+
+ASSESSMENT AND PLAN
+New diagnosis: Acute viral pharyngitis.
+
+---
+Outpatient note, 2018-04-01:
+OUTPATIENT NOTE
+Date: 2018-04-01
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 2007-05-20
+- Chronic periodontitis, diagnosed 2007-05-20
+- Tooth eruption disorder, diagnosed 2009-06-07
+- Impacted molars, diagnosed 2018-01-01
+- history of Acute viral pharyngitis, resolved 2016-04-06
+- h/o Anemia, resolved 2018-02-18
+- h/o Normal pregnancy, resolved 2018-02-18
+- history of Eclampsia in pregnancy, resolved 2018-02-18
+
+FAMILY HISTORY
+Father: Prediabetes.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen / hydrocodone (last prescribed 2018-01-01).
+
+REVIEW OF SYSTEMS
+Denies blurred vision, SOB, headache.
+
+ASSESSMENT AND PLAN
+No evidence of Localized, primary osteoarthritis of the hand.
+",yes,
+c003,"What was this patient's most recent diastolic blood pressure result, and on what date?",85.807 mm[Hg],14/08/2022,"Emergency Room note, 2022-08-14:
+rystals 25 MG / nitrofurantoin, monohydrate 75 MG Oral Capsule).
+Previously: norethindrone (last prescribed 2022-03-25).
+
+REVIEW OF SYSTEMS
+Denies shortness of breath, chest pain, blurred vision.
+
+OBJECTIVE
+diastolic blood pressure 85.807 mm[Hg]; heart rate 91.131 /min; systolic blood pressure 136.27 mm[Hg].
+
+ASSESSMENT AND PLAN
+No evidence of IHD.
+",yes,
+c023,Does this patient currently have metabolic syndrome x?,"Metabolic syndrome X, diagnosed 1996-08-23",23/08/1996,"Outpatient note, 2022-02-18:
+OUTPATIENT NOTE
+Date: 2022-02-18
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1981-07-31
+- Anemia, diagnosed 1981-07-31
+- Chronic sinusitis, diagnosed 1991-05-14
+- Disorder of kidney due to diabetes mellitus, diagnosed 1996-08-16
+- T2DM, diagnosed 1996-08-16
+- Metabolic syndrome X, diagnosed 1996-08-23
+- Hypertriglyceridemia, diagnosed 1996-08-23
+- Essential hypertension, diagnosed 1997-06-13
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 1997-08-08
+- Nonproliferative retinopathy due to type 2 diabetes mellitus, diagnosed 1997-09-19
+- Body mass index 30+ - obesity, diagnosed 2001-06-22
+- Osteoarthritis of knee, diagnosed 2002-02-15
+- Chronic pain, diagnosed 2002-07-05
+- Chronic periodontitis, diagnosed 2004-10-15
+- Tooth eruption disorder, 
+---
+Outpatient note, 2022-02-04:
+OUTPATIENT NOTE
+Date: 2022-02-04
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1981-07-31
+- Anemia, diagnosed 1981-07-31
+- Chronic sinusitis, diagnosed 1991-05-14
+- Disorder of kidney due to diabetes mellitus, diagnosed 1996-08-16
+- Type 2 diabetes mellitus, diagnosed 1996-08-16
+- Metabolic syndrome X, diagnosed 1996-08-23
+- Hypertriglyceridemia, diagnosed 1996-08-23
+- Essential hypertension, diagnosed 1997-06-13
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 1997-08-08
+- Nonproliferative retinopathy due to type 2 diabetes mellitus, diagnosed 1997-09-19
+- Body mass index 30+ - obesity, diagnosed 2001-06-22
+- Osteoarthritis of knee, diagnosed 2002-02-15
+- Chronic pain, diagnosed 2002-07-05
+- Chronic periodontitis, diagnosed 2004-10-15
+- Tooth 
+---
+Outpatient note, 2021-12-17:
+OUTPATIENT NOTE
+Date: 2021-12-17
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1981-07-31
+- Anemia, diagnosed 1981-07-31
+- Chronic sinusitis, diagnosed 1991-05-14
+- Disorder of kidney due to diabetes mellitus, diagnosed 1996-08-16
+- T2DM, diagnosed 1996-08-16
+- Metabolic syndrome X, diagnosed 1996-08-23
+- Hypertriglyceridemia, diagnosed 1996-08-23
+- Essential hypertension, diagnosed 1997-06-13
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 1997-08-08
+- Nonproliferative retinopathy due to type 2 diabetes mellitus, diagnosed 1997-09-19
+- Body mass index 30+ - obesity, diagnosed 2001-06-22
+- Osteoarthritis of knee, diagnosed 2002-02-15
+- Chronic pain, diagnosed 2002-07-05
+- Chronic periodontitis, diagnosed 2004-10-15
+- Tooth eruption disorder, 
+---
+Outpatient note, 2021-12-03:
+OUTPATIENT NOTE
+Date: 2021-12-03
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1981-07-31
+- Anemia, diagnosed 1981-07-31
+- Chronic sinusitis, diagnosed 1991-05-14
+- Disorder of kidney due to diabetes mellitus, diagnosed 1996-08-16
+- Type 2 diabetes mellitus, diagnosed 1996-08-16
+- Metabolic syndrome X, diagnosed 1996-08-23
+- Hypertriglyceridemia, diagnosed 1996-08-23
+- HTN, diagnosed 1997-06-13
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 1997-08-08
+- Nonproliferative retinopathy due to type 2 diabetes mellitus, diagnosed 1997-09-19
+- Body mass index 30+ - obesity, diagnosed 2001-06-22
+- Osteoarthritis of knee, diagnosed 2002-02-15
+- Chronic pain, diagnosed 2002-07-05
+- Chronic periodontitis, diagnosed 2004-10-15
+- Tooth eruption disorder, 
+---
+Outpatient note, 2021-11-19:
+OUTPATIENT NOTE
+Date: 2021-11-19
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1981-07-31
+- Anemia, diagnosed 1981-07-31
+- Chronic sinusitis, diagnosed 1991-05-14
+- Disorder of kidney due to diabetes mellitus, diagnosed 1996-08-16
+- T2DM, diagnosed 1996-08-16
+- Metabolic syndrome X, diagnosed 1996-08-23
+- Hypertriglyceridemia, diagnosed 1996-08-23
+- Essential hypertension, diagnosed 1997-06-13
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 1997-08-08
+- Nonproliferative retinopathy due to type 2 diabetes mellitus, diagnosed 1997-09-19
+- Body mass index 30+ - obesity, diagnosed 2001-06-22
+- Osteoarthritis of knee, diagnosed 2002-02-15
+- Chronic pain, diagnosed 2002-07-05
+- Chronic periodontitis, diagnosed 2004-10-15
+- Tooth eruption disorder, ",yes,
+c036,When was this patient first diagnosed with body mass index 30+ - obesity?,Body mass index 30+ - obesity first diagnosed,02/06/2018,"Outpatient note, 2021-06-05:
+OUTPATIENT NOTE
+Date: 2021-06-05
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Sepsis, diagnosed 2008-01-13
+- Body mass index 30+ - obesity, diagnosed 2018-06-02
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies nausea, fever, abdominal pain.
+
+OBJECTIVE
+BMI 30.34 kg/m2; HDL cholesterol 59.7 mg/dL; LDL cholesterol 87.37 mg/dL; body weight 100.4 kg; diastolic blood pressure 78 mm[Hg]; heart rate 83 /min; hemoglobin 12.881 g/dL; SBP 115 mm[Hg]; total cholesterol 175.76 mg/dL; triglycerides 143.4 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+No evidence of Acute non-ST segment elevation myocardial infarction.
+
+---
+Outpatient note, 2022-11-16:
+OUTPATIENT NOTE
+Date: 2022-11-16
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Sepsis, diagnosed 2008-01-13
+- Body mass index 30+ - obesity, diagnosed 2018-06-02
+- Viral sinusitis, diagnosed 2022-11-16
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, dizziness, weight loss.
+
+ASSESSMENT AND PLAN
+New diagnosis: Viral sinusitis.
+
+---
+Outpatient note, 2024-06-08:
+OUTPATIENT NOTE
+Date: 2024-06-08
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Sepsis, diagnosed 2008-01-13
+- Body mass index 30+ - obesity, diagnosed 2018-06-02
+- h/o Viral sinusitis, resolved 2022-11-28
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies palpitations, headache, blurred vision.
+
+OBJECTIVE
+BMI 30.34 kg/m2; HDL cholesterol 56.66 mg/dL; LDL cholesterol 81.84 mg/dL; body weight 100.4 kg; diastolic blood pressure 71 mm[Hg]; heart rate 71 /min; SBP 126 mm[Hg]; total cholesterol 164.51 mg/dL; triglycerides 130.02 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+No evidence of Acute non-ST segment elevation myocardial infarction.
+
+---
+Outpatient note, 2024-06-22:
+OUTPATIENT NOTE
+Date: 2024-06-22
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Sepsis, diagnosed 2008-01-13
+- Body mass index 30+ - obesity, diagnosed 2018-06-02
+- h/o Viral sinusitis, resolved 2022-11-28
+
+FAMILY HISTORY
+Mother: Chronic sinusitis.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, fever, headache.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2018-06-02:
+OUTPATIENT NOTE
+Date: 2018-06-02
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Sepsis, diagnosed 2008-01-13
+- Body mass index 30+ - obesity, diagnosed 2018-06-02
+
+FAMILY HISTORY
+Mother: Chronic sinusitis.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, joint pain, shortness of breath.
+
+OBJECTIVE
+BMI 30.34 kg/m2; HDL cholesterol 54.89 mg/dL; LDL cholesterol 91.47 mg/dL; body weight 100.4 kg; diastolic blood pressure 77 mm[Hg]; heart rate 83 /min; systolic blood pressure 127 mm[Hg]; total cholesterol 174.78 mg/dL; triglycerides 142.08 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free, tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 lf of tetanus toxoid and 2 lf of diphtheria ",yes,
+c074,Does this patient currently have dental caries?,"Dental caries, historical (diagnosed 2014-11-23), resolved 2025-01-26",26/01/2025,"Outpatient note, 2025-01-26:
+OUTPATIENT NOTE
+Date: 2025-01-26
+Patient: male, born 2005
+
+PAST MEDICAL HISTORY
+- h/o Tooth eruption disorder, resolved 2025-01-26
+- h/o Dental caries, resolved 2025-01-26
+- history of Gingivitis, resolved 2025-01-26
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, chest pain, blurred vision.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",no,diagnosis date 2014-11-23 not in the excerpt (only the resolution is)
+c082,Why was sodium chloride discontinued?,Course completed,03/08/2021,"Outpatient note, 2021-10-01:
+criptions.
+Previously: acetaminophen / hydrocodone (last prescribed 2021-07-06); ethinyl estradiol / etonogestrel (last prescribed 2021-02-28); sodium chloride (last prescribed 2021-07-05).
+
+REVIEW OF SYSTEMS
+Denies dizziness, abdominal pain, fever.
+
+ASSESSMENT AND PLAN
+Sodium chloride was discontinued after 2021-08-03 due to the course being completed.
+",yes,
+c089,"What was this patient's most recent BMI result, and on what date?",BMI 30.05 kg/m2,21/10/2024,"Outpatient note, 2024-10-21:
+OUTPATIENT NOTE
+Date: 2024-10-21
+Patient: male, born 1959
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1976-09-06
+- Body mass index 30+ - obesity, diagnosed 2001-07-30
+- Limited social contact, diagnosed 2005-08-08
+- Social isolation, diagnosed 2010-07-26
+- Chronic sinusitis, diagnosed 2017-11-20
+- history of Gingivitis, resolved 2022-09-26
+- history of Viral sinusitis, resolved 2023-05-28
+- history of Chronic periodontitis, resolved 2023-10-30
+- history of Accretion on tooth, resolved 2023-10-30
+- history of Acute gingivitis, resolved 2023-10-30
+- h/o Dental caries, resolved 2023-10-30
+- history of Tooth eruption disorder, resolved 2023-10-30
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies cough, leg swelling, SOB.
+
+OBJECTIVE
+BMI 30.05 kg/m2; HDL ",yes,
+c100,Why was acetaminophen discontinued?,Discontinued due to cost concerns raised by the patient,30/09/2023,"Outpatient note, 2023-10-11:
+OUTPATIENT NOTE
+Date: 2023-10-11
+Patient: female, born 1988
+
+PAST MEDICAL HISTORY
+- Chronic sinusitis, diagnosed 1991-03-13
+- Social isolation, diagnosed 2014-06-04
+- h/o Acute bronchitis, resolved 2023-09-20
+- h/o Tooth eruption disorder, resolved 2023-09-27
+- h/o Dental caries, resolved 2023-09-27
+- h/o Gingivitis, resolved 2023-09-27
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen (last prescribed 2023-09-01).
+
+REVIEW OF SYSTEMS
+Denies fatigue, fever, nausea.
+
+ASSESSMENT AND PLAN
+Acetaminophen was discontinued after 2023-09-30 due to cost concerns raised by the patient.
+",yes,
+c102,When was this patient first diagnosed with severe anxiety (panic)?,Severe anxiety (panic) first diagnosed 2018-03-12 (later resolved 2019-03-18),12/03/2018,"Outpatient note, 2018-04-09:
+OUTPATIENT NOTE
+Date: 2018-04-09
+Patient: female, born 1992
+
+PAST MEDICAL HISTORY
+- Chronic pain, diagnosed 2014-02-05
+- Chronic low back pain, diagnosed 2014-02-05
+- Chronic periodontitis, diagnosed 2014-03-03
+- Dental caries, diagnosed 2014-03-03
+- Severe anxiety (panic), diagnosed 2018-03-12
+- Acute bronchitis, diagnosed 2018-03-31
+- h/o Limited social contact, resolved 2016-02-29
+- history of Gingivitis, resolved 2016-03-14
+- h/o Normal pregnancy, resolved 2016-03-21
+- history of Viral sinusitis, resolved 2016-04-24
+- history of Tooth eruption disorder, resolved 2017-03-20
+- history of Social isolation, resolved 2018-03-12
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet [Tylenol]); acetaminophen / oxycodone (acetaminophen 325 MG / oxycodone hydrochloride 10 MG ",no,resolution date 2019-03-18 not in the excerpt
+c115,"Is there a family history of essential hypertension, and if so in which relative?",Father: essential hypertension,15/01/2023,"Outpatient note, 2016-12-12:
+OUTPATIENT NOTE
+Date: 2016-12-12
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Aortic valve regurgitation, diagnosed 1967-08-29
+- Chronic sinusitis, diagnosed 1968-05-31
+- Major depressive disorder, diagnosed 1970-10-18
+- Body mass index 30+ - obesity, diagnosed 1991-09-08
+- Gingivitis, diagnosed 1995-09-17
+- Disorder of teeth AND/OR supporting structures, diagnosed 1995-10-01
+- Social isolation, diagnosed 2005-09-25
+- Limited social contact, diagnosed 2006-10-01
+- Dental caries, diagnosed 2009-04-12
+- IHD, diagnosed 2009-08-23
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2009-09-06
+- Acute viral pharyngitis, diagnosed 2016-12-12
+
+FAMILY HISTORY
+Brother: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Father: Essential hypertension.
+Sister: 
+---
+Outpatient note, 2016-09-08:
+-06
+
+FAMILY HISTORY
+Brother: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Father: HTN.
+Sister: Hyperlipidemia.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: aspirin (last prescribed 2015-11-22).
+
+REVIEW OF SYSTEMS
+Denies weight loss, headache, fatigue.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2016-12-12:
+haryngitis, diagnosed 2016-12-12
+
+FAMILY HISTORY
+Brother: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Father: Essential hypertension.
+Sister: HLD.
+
+MEDICATIONS
+Current: aspirin (aspirin 81 MG Oral Capsule [Vazalore]).
+
+REVIEW OF SYSTEMS
+Denies leg swelling, CP, headache.
+
+ASSESSMENT AND PLAN
+New diagnosis: Acute viral pharyngitis.
+
+---
+Outpatient note, 2016-09-08:
+OUTPATIENT NOTE
+Date: 2016-09-08
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Aortic valve regurgitation, diagnosed 1967-08-29
+- Chronic sinusitis, diagnosed 1968-05-31
+- Major depressive disorder, diagnosed 1970-10-18
+- Body mass index 30+ - obesity, diagnosed 1991-09-08
+- Gingivitis, diagnosed 1995-09-17
+- Disorder of teeth AND/OR supporting structures, diagnosed 1995-10-01
+- Social isolation, diagnosed 2005-09-25
+- Limited social contact, diagnosed 2006-10-01
+- Dental caries, diagnosed 2009-04-12
+- Ischemic heart disease, diagnosed 2009-08-23
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2009-09-06
+
+FAMILY HISTORY
+Brother: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Father: HTN.
+Sister: Hyperlipidemia.
+
+MEDICATIONS
+Current: no active 
+---
+Outpatient note, 2023-01-15:
+Disorder of teeth AND/OR supporting structures, resolved 2023-01-15
+- h/o Dental caries, resolved 2023-01-15
+- h/o Illness, resolved 2023-01-15
+
+FAMILY HISTORY
+Brother: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Father: HTN.
+Sister: Hyperlipidemia.
+
+MEDICATIONS
+Current: aspirin (aspirin 81 MG Oral Capsule [Vazalore]).
+Previously: diazepam (last prescribed 2022-11-18).
+
+REVIEW OF SYSTEMS
+Denies dizziness, headache, cough.
+
+ASSESSMENT AND PLAN
+No evidence of Microalbuminuria due to type 2 diabetes mellitus.
+",yes,Father: HTN in the 2023-01-15 excerpt (abbreviation)
+c125,Which medications is this patient currently taking (as of 2025-09-07)?,simvastatin,07/09/2025,"Outpatient note, 2025-09-07:
+04
+- Dental caries, diagnosed 2021-08-15
+- Idiopathic atrophic hypothyroidism, diagnosed 2022-12-02
+- Cyst of jaw, diagnosed 2025-09-07
+- h/o Social isolation, resolved 2024-08-18
+- h/o Fracture of forearm, resolved 2025-01-09
+- history of Fracture of bone, resolved 2025-01-09
+
+MEDICATIONS
+Current: acetaminophen / codeine (acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet); simvastatin (simvastatin 10 MG Oral Tablet); tramadol (tramadol hydrochloride 50 MG Oral Tablet).
+Previously: naproxen (last prescribed 2024-11-09).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, joint pain, chest pain.
+
+ASSESSMENT AND PLAN
+New diagnosis: Cyst of jaw.
+No evidence of Obstructive sleep apnea syndrome.
+",yes,
+c131,Does this patient currently have limited social contact?,"Limited social contact (active, diagnosed 2013-01-20)",20/01/2013,"Outpatient note, 2025-02-16:
+OUTPATIENT NOTE
+Date: 2025-02-16
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 2013-01-20
+- history of Viral sinusitis, resolved 2023-05-04
+- h/o Sprain of wrist, resolved 2023-07-11
+- history of Social isolation, resolved 2025-02-02
+- h/o Gingivitis, resolved 2025-02-16
+
+FAMILY HISTORY
+Mother: Acute ST segment elevation myocardial infarction.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen (last prescribed 2023-06-27).
+
+REVIEW OF SYSTEMS
+Denies joint pain, nausea, fever.
+
+ASSESSMENT AND PLAN
+No evidence of Chronic congestive heart failure.
+
+---
+Outpatient note, 2025-02-02:
+OUTPATIENT NOTE
+Date: 2025-02-02
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 2013-01-20
+- Gingivitis, diagnosed 2017-09-03
+- h/o Viral sinusitis, resolved 2023-05-04
+- h/o Sprain of wrist, resolved 2023-07-11
+- history of Social isolation, resolved 2025-02-02
+
+FAMILY HISTORY
+Mother: Acute ST segment elevation myocardial infarction.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen (last prescribed 2023-06-27).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, cough, leg swelling.
+
+OBJECTIVE
+BMI 27.83 kg/m2; HDL cholesterol 55.77 mg/dL; LDL cholesterol 75.1 mg/dL; wt 77 kg; DBP 76 mm[Hg]; heart rate 66 /min; SBP 132 mm[Hg]; total cholesterol 156.03 mg/dL; triglycerides 125.83 mg/dL.
+Immunizations given: influenza, split virus, 
+---
+Emergency Room note, 2023-06-27:
+EMERGENCY ROOM NOTE
+Date: 2023-06-27
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Social isolation, diagnosed 2010-01-17
+- Limited social contact, diagnosed 2013-01-20
+- Sprain of wrist, diagnosed 2023-06-27
+- history of Gingivitis, resolved 2022-02-13
+- h/o Viral sinusitis, resolved 2023-05-04
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, dizziness, weight loss.
+
+ASSESSMENT AND PLAN
+New diagnosis: Sprain of wrist.
+Started acetaminophen (acetaminophen 325 MG Oral Tablet).
+No evidence of Adolescent idiopathic scoliosis.
+
+---
+Outpatient note, 2023-04-15:
+OUTPATIENT NOTE
+Date: 2023-04-15
+Patient: male, born 1987
+
+PAST MEDICAL HISTORY
+- Social isolation, diagnosed 2010-01-17
+- Limited social contact, diagnosed 2013-01-20
+- Viral sinusitis, diagnosed 2017-09-10
+- history of Gingivitis, resolved 2022-02-13
+
+FAMILY HISTORY
+Mother: Acute ST segment elevation myocardial infarction.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies cough, fever, dizziness.
+
+ASSESSMENT AND PLAN
+New diagnosis: Viral sinusitis.
+",yes,
+c156,When was this patient first diagnosed with fracture of rib?,Fracture of rib first diagnosed 2017-01-23,23/01/2017,"Emergency Room note, 2017-01-23:
+EMERGENCY ROOM NOTE
+Date: 2017-01-23
+Patient: male, born 2002
+
+PAST MEDICAL HISTORY
+- Fracture of rib, diagnosed 2017-01-23
+- Fracture of bone, diagnosed 2017-01-23
+- history of Gingivitis, resolved 2016-10-26
+
+FAMILY HISTORY
+Father: Adolescent idiopathic scoliosis.
+Brother: Hyperglycemia.
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies cough, shortness of breath, palpitations.
+
+ASSESSMENT AND PLAN
+New diagnosis: Fracture of bone.
+New diagnosis: Fracture of rib.
+Started acetaminophen (acetaminophen 325 MG Oral Tablet).
+No evidence of Seizure disorder.
+",yes,
+c170,Which medications is this patient currently taking (as of 2025-01-27)?,hydrochlorothiazide,27/01/2025,"Outpatient note, 2025-01-27:
+OUTPATIENT NOTE
+Date: 2025-01-27
+Patient: male, born 1942
+
+PAST MEDICAL HISTORY
+- Essential hypertension, diagnosed 2000-09-11
+- Gingivitis, diagnosed 2007-10-22
+- Chronic pain, diagnosed 2014-02-05
+- Chronic low back pain, diagnosed 2014-02-05
+- IHD, diagnosed 2017-12-18
+- Limited social contact, diagnosed 2017-12-18
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2017-12-25
+- history of Dental caries on pit and fissure surface penetrating into dentin, resolved 2024-02-05
+- h/o Social isolation, resolved 2025-01-27
+
+MEDICATIONS
+Current: amlodipine (amlodipine 2.5 MG Oral Tablet); hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet); ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies joint 
+---
+Outpatient note, 2025-01-27:
+rochlorothiazide 25 MG Oral Tablet); ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies joint pain, chest pain, leg swelling.
+
+OBJECTIVE
+BMI 27.54 kg/m2; wt 86 kg; diastolic blood pressure 68 mm[Hg]; heart rate 62 /min; hemoglobin 16.401 g/dL; systolic blood pressure 106 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Started amlodipine (amlodipine 2.5 MG Oral Tablet).
+Started hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+Started ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]).
+Started lisinopril (lisinopril 10 MG Oral Tablet).
+",yes,
+c203,Which medications is this patient currently taking (as of 2025-05-07)?,amoxicillin / clavulanate (amoxicillin 875 MG / clavulanate 125 MG Oral Tablet),07/05/2025,"Emergency Room note, 2025-05-07:
+EMERGENCY ROOM NOTE
+Date: 2025-05-07
+Patient: female, born 2004
+
+PAST MEDICAL HISTORY
+- Gingivitis, diagnosed 2019-02-12
+- Risk activity involvement, diagnosed 2021-02-23
+- Recurrent urinary tract infection, diagnosed 2025-05-07
+- Pyelonephritis, diagnosed 2025-05-07
+- history of Perennial allergic rhinitis with seasonal variation, resolved 2023-01-10
+- history of Normal pregnancy, resolved 2024-06-18
+- h/o Acute infective cystitis, resolved 2024-12-08
+
+MEDICATIONS
+Current: amoxicillin / clavulanate (amoxicillin 875 MG / clavulanate 125 MG Oral Tablet).
+Previously: cephalexin (last prescribed 2024-12-07); drospirenone / ethinyl estradiol / inert ingredients (last prescribed 2024-08-06); nitrofurantoin (last prescribed 2024-12-07).
+
+REVIEW OF SYSTEMS
+Denies CP, leg swelling, nausea.
+
+
+---
+Emergency Room note, 2025-05-07:
+l estradiol / inert ingredients (last prescribed 2024-08-06); nitrofurantoin (last prescribed 2024-12-07).
+
+REVIEW OF SYSTEMS
+Denies CP, leg swelling, nausea.
+
+OBJECTIVE
+DBP 62.09 mm[Hg]; eGFR 7.132 mL/min; HR 72.604 /min; hemoglobin 17.245 g/dL; systolic blood pressure 114.7 mm[Hg].
+
+ASSESSMENT AND PLAN
+Started amoxicillin / clavulanate (amoxicillin 875 MG / clavulanate 125 MG Oral Tablet).
+No evidence of Chronic sinusitis.
+",yes,
+c208,Does this patient currently have dental caries?,"Dental caries, diagnosed 1993-02-01, resolved 2024-01-22 (historical, not current)",22/01/2024,"Outpatient note, 2024-01-22:
+OUTPATIENT NOTE
+Date: 2024-01-22
+Patient: male, born 1979
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 2008-03-03
+- Anemia, diagnosed 2011-03-07
+- Limited social contact, diagnosed 2014-03-10
+- h/o Social isolation, resolved 2022-01-03
+- h/o Acute viral pharyngitis, resolved 2022-10-31
+- h/o Tooth eruption disorder, resolved 2024-01-22
+- h/o Dental caries, resolved 2024-01-22
+- h/o Gingivitis, resolved 2024-01-22
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies weight loss, palpitations, headache.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",no,diagnosis date 1993-02-01 not in the excerpt
+c214,When was this patient first diagnosed with anemia?,Anemia diagnosed,23/12/1995,"Telehealth note, 2016-10-15:
+TELEHEALTH NOTE
+Date: 2016-10-15
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 1989-12-16
+- Prediabetes, diagnosed 1992-12-19
+- Anemia, diagnosed 1995-12-23
+- Body mass index 30+ - obesity, diagnosed 2011-10-29
+- HTN, diagnosed 2015-11-07
+- Hyperlipidemia, diagnosed 2015-11-07
+- Metabolic syndrome X, diagnosed 2015-11-07
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: hydrochlorothiazide (last prescribed 2015-11-07); simvastatin (last prescribed 2015-11-28).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, leg swelling, headache.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2017-10-14:
+OUTPATIENT NOTE
+Date: 2017-10-14
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 1989-12-16
+- Prediabetes, diagnosed 1992-12-19
+- Anemia, diagnosed 1995-12-23
+- Body mass index 30+ - obesity, diagnosed 2011-10-29
+- Essential hypertension, diagnosed 2015-11-07
+- Hyperlipidemia, diagnosed 2015-11-07
+- Metabolic syndrome X, diagnosed 2015-11-07
+- Social isolation, diagnosed 2016-11-12
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: hydrochlorothiazide (last prescribed 2016-11-12); simvastatin (last prescribed 2016-11-27).
+
+REVIEW OF SYSTEMS
+Denies fatigue, palpitations, shortness of breath.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2016-04-05:
+OUTPATIENT NOTE
+Date: 2016-04-05
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 1989-12-16
+- Prediabetes, diagnosed 1992-12-19
+- Anemia, diagnosed 1995-12-23
+- Body mass index 30+ - obesity, diagnosed 2011-10-29
+- Essential hypertension, diagnosed 2015-11-07
+- Hyperlipidemia, diagnosed 2015-11-07
+- Metabolic syndrome X, diagnosed 2015-11-07
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: hydrochlorothiazide (last prescribed 2015-11-07); simvastatin (last prescribed 2015-11-28).
+
+REVIEW OF SYSTEMS
+Denies headache, nausea, weight loss.
+
+OBJECTIVE
+diastolic blood pressure 110 mm[Hg]; systolic blood pressure 138 mm[Hg].
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2020-12-19:
+OUTPATIENT NOTE
+Date: 2020-12-19
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1992-12-19
+- Anemia, diagnosed 1995-12-23
+- Body mass index 30+ - obesity, diagnosed 2011-10-29
+- Essential hypertension, diagnosed 2015-11-07
+- HLD, diagnosed 2015-11-07
+- Metabolic syndrome X, diagnosed 2015-11-07
+- h/o Social isolation, resolved 2018-11-24
+- history of Limited social contact, resolved 2020-12-05
+- history of Gingivitis, resolved 2020-12-19
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+Previously: simvastatin (last prescribed 2019-12-21).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, blurred vision, weight loss.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2019-12-14:
+OUTPATIENT NOTE
+Date: 2019-12-14
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Limited social contact, diagnosed 1989-12-16
+- Prediabetes, diagnosed 1992-12-19
+- Anemia, diagnosed 1995-12-23
+- Body mass index 30+ - obesity, diagnosed 2011-10-29
+- Essential hypertension, diagnosed 2015-11-07
+- Hyperlipidemia, diagnosed 2015-11-07
+- Metabolic syndrome X, diagnosed 2015-11-07
+- h/o Social isolation, resolved 2018-11-24
+- history of Gingivitis, resolved 2019-12-14
+
+FAMILY HISTORY
+Sister: Metabolic syndrome X.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+Previously: simvastatin (last prescribed 2018-12-09).
+
+REVIEW OF SYSTEMS
+Denies dizziness, cough, leg swelling.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",yes,
+c220,Which medications is this patient currently taking (as of 2025-06-20)?,lisinopril,20/06/2025,"Outpatient note, 2025-06-20:
+OUTPATIENT NOTE
+Date: 2025-06-20
+Patient: male, born 1982
+
+PAST MEDICAL HISTORY
+- Social isolation, diagnosed 2006-04-21
+- Limited social contact, diagnosed 2007-05-04
+- Body mass index 30+ - obesity, diagnosed 2009-04-03
+- HTN, diagnosed 2019-05-17
+- Disorder of kidney due to diabetes mellitus, diagnosed 2023-06-09
+- CKD stage 1, diagnosed 2023-06-09
+- h/o Gingivitis, resolved 2024-06-28
+- history of Dental caries, resolved 2024-06-28
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies SOB, joint pain, fatigue.
+
+OBJECTIVE
+BMI 27.47 kg/m2; HDL cholesterol 58.85 mg/dL; LDL cholesterol 110.62 mg/dL; wt 92.6 kg; diastolic blood pressure 75 mm[Hg]; eGFR 110.64 mL/min/{1.73_m2}; HR 94 /min; SBP 
+---
+Outpatient note, 2025-06-20:
+kg/m2; HDL cholesterol 58.85 mg/dL; LDL cholesterol 110.62 mg/dL; wt 92.6 kg; diastolic blood pressure 75 mm[Hg]; eGFR 110.64 mL/min/{1.73_m2}; HR 94 /min; SBP 142 mm[Hg]; total cholesterol 198.39 mg/dL; triglycerides 144.63 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Limited social contact.
+Started hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+Started lisinopril (lisinopril 10 MG Oral Tablet).
+No evidence of Neoplasm of prostate.
+",yes,
+c247,Does this patient currently have dental caries?,"Dental caries (diagnosed 2015-04-03) resolved 2025-05-30; historical, not current",30/05/2025,"Inpatient note, 2025-08-11:
+ diagnosed 2016-03-18
+- Ischemic heart disease, diagnosed 2025-05-09
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2025-05-19
+- h/o Limited social contact, resolved 2024-05-03
+- history of Fracture of condylar process of mandible, resolved 2025-05-30
+- history of Primary malignant neoplasm of mandible, resolved 2025-05-30
+- history of Disorder of teeth AND/OR supporting structures, resolved 2025-05-30
+- history of Dental caries, resolved 2025-05-30
+- history of Benign neoplasm of mouth region, resolved 2025-05-30
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen / hydrocodone (last prescribed 2025-05-09); albuterol (last prescribed 2025-05-09); clopidogrel (last prescribed 2025-05-16); fluticasone / salmeterol (last prescribed ",no,diagnosis date 2015-04-03 not visible (excerpt starts mid-list)
+c251,Which medications is this patient currently taking (as of 2025-02-20)?,norethindrone,20/02/2025,"Outpatient note, 2025-02-20:
+OUTPATIENT NOTE
+Date: 2025-02-20
+Patient: female, born 2001
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2014-03-28
+- Body mass index 30+ - obesity, diagnosed 2023-05-05
+- h/o Normal pregnancy, resolved 2023-01-13
+- history of Acute infective cystitis, resolved 2023-08-27
+
+MEDICATIONS
+Current: norethindrone ({28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]).
+Previously: ciprofloxacin (last prescribed 2023-08-26); nitrofurantoin (last prescribed 2023-08-25).
+
+REVIEW OF SYSTEMS
+Denies headache, abdominal pain, fever.
+
+ASSESSMENT AND PLAN
+Started norethindrone ({28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]).
+No evidence of Recurrent rectal polyp.
+",yes,
+c268,"What was this patient's most recent heart rate result, and on what date?",heart rate 81 /min,03/03/2025,"Outpatient note, 2025-03-03:
+OUTPATIENT NOTE
+Date: 2025-03-03
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Generalized chronic periodontitis, diagnosed 1995-01-09
+- Risk activity involvement, diagnosed 1998-01-12
+- Body mass index 30+ - obesity, diagnosed 2010-02-08
+- Anemia, diagnosed 2016-02-15
+- Prediabetes, diagnosed 2016-02-15
+- Gingivitis, diagnosed 2021-12-06
+- history of Viral sinusitis, resolved 2024-08-16
+- history of Acute bronchitis, resolved 2025-02-27
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies chest pain, fever, nausea.
+
+OBJECTIVE
+BMI 29.56 kg/m2; HbA1c 6.34 %; blood glucose 87.85 mg/dL; body weight 85.4 kg; creatinine 1.15 mg/dL; diastolic blood pressure 86 mm[Hg]; heart rate 81 /min; potassium 4.43 mmol/L; sodium 139.17 mmol/L; SBP 119 mm[Hg]; 
+---
+Outpatient note, 2025-03-03:
+ody weight 85.4 kg; creatinine 1.15 mg/dL; diastolic blood pressure 86 mm[Hg]; heart rate 81 /min; potassium 4.43 mmol/L; sodium 139.17 mmol/L; SBP 119 mm[Hg]; urea nitrogen 18.05 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Gingivitis.
+",yes,
+c290,When was this patient first diagnosed with misuses drugs?,Misuses drugs first diagnosed 2015-02-20 (later resolved 2024-03-01),20/02/2015,"Outpatient note, 2021-01-15:
+OUTPATIENT NOTE
+Date: 2021-01-15
+Patient: female, born 1986
+
+PAST MEDICAL HISTORY
+- Acute gingivitis, diagnosed 2012-03-02
+- Accretion on tooth, diagnosed 2012-03-02
+- Misuses drugs, diagnosed 2015-02-20
+- Normal pregnancy, diagnosed 2016-06-03
+- history of Acute viral pharyngitis, resolved 2018-07-03
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies joint pain, CP, nausea.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2017-09-15:
+OUTPATIENT NOTE
+Date: 2017-09-15
+Patient: female, born 1986
+
+PAST MEDICAL HISTORY
+- Acute gingivitis, diagnosed 2012-03-02
+- Accretion on tooth, diagnosed 2012-03-02
+- Misuses drugs, diagnosed 2015-02-20
+- Normal pregnancy, diagnosed 2016-06-03
+- h/o Acute viral pharyngitis, resolved 2016-02-02
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies chest pain, dizziness, nausea.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2018-01-05:
+OUTPATIENT NOTE
+Date: 2018-01-05
+Patient: female, born 1986
+
+PAST MEDICAL HISTORY
+- Acute gingivitis, diagnosed 2012-03-02
+- Accretion on tooth, diagnosed 2012-03-02
+- Misuses drugs, diagnosed 2015-02-20
+- Normal pregnancy, diagnosed 2016-06-03
+- h/o Acute viral pharyngitis, resolved 2016-02-02
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies headache, cough, abdominal pain.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2017-10-13:
+OUTPATIENT NOTE
+Date: 2017-10-13
+Patient: female, born 1986
+
+PAST MEDICAL HISTORY
+- Acute gingivitis, diagnosed 2012-03-02
+- Accretion on tooth, diagnosed 2012-03-02
+- Misuses drugs, diagnosed 2015-02-20
+- Normal pregnancy, diagnosed 2016-06-03
+- h/o Acute viral pharyngitis, resolved 2016-02-02
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies fatigue, abdominal pain, joint pain.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",no,resolution date 2024-03-01 not in any cited excerpt
+c297,Which medications is this patient currently taking (as of 2025-09-30)?,tramadol (tramadol hydrochloride 50 MG Oral Tablet),30/09/2025,"Outpatient note, 2025-09-30:
+agnosed 2023-09-12
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2023-09-12
+- Proteinuria due to type 2 diabetes mellitus, diagnosed 2024-07-23
+- CKD stage 3, diagnosed 2024-07-23
+- h/o Gingivitis, resolved 2024-10-01
+- h/o Dental caries, resolved 2025-09-30
+
+MEDICATIONS
+Current: fentanyl (72 HR fentanyl 0.025 MG/HR Transdermal System); insulin isophane / insulin, regular, human (insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin]); lisinopril (lisinopril 10 MG Oral Tablet); oxycodone (Abuse-Deterrent 12 HR oxycodone hydrochloride 10 MG Extended Release Oral Tablet [Oxycontin]); tramadol (tramadol hydrochloride 50 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, CP, blurred vision.
+
+ASSESSMENT AND PLAN
+New ",yes,
+c320,"What was this patient's most recent total cholesterol result, and on what date?",total cholesterol 187.44 mg/dL,12/01/2024,"Outpatient note, 2024-01-12:
+OUTPATIENT NOTE
+Date: 2024-01-12
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Tooth eruption disorder, diagnosed 2006-04-14
+- Dental caries, diagnosed 2012-01-13
+- Body mass index 30+ - obesity, diagnosed 2024-01-12
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, dizziness, joint pain.
+
+OBJECTIVE
+BMI 30.31 kg/m2; HDL cholesterol 56.22 mg/dL; LDL cholesterol 104.63 mg/dL; wt 105.3 kg; diastolic blood pressure 84 mm[Hg]; heart rate 71 /min; systolic blood pressure 135 mm[Hg]; total cholesterol 187.44 mg/dL; triglycerides 132.96 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free, tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 lf of tetanus toxoid and 2 lf of diphtheria ",yes,
+c331,"Is there a family history of emphysematous bronchitis, and if so in which relative?",Sister: emphysematous bronchitis,10/12/2023,"Outpatient note, 2023-12-10:
+OUTPATIENT NOTE
+Date: 2023-12-10
+Patient: male, born 1983
+
+PAST MEDICAL HISTORY
+- Adolescent idiopathic scoliosis, diagnosed 1994-09-04
+- Risk activity involvement, diagnosed 2001-08-19
+- Impacted molars, diagnosed 2020-11-25
+- Social isolation, diagnosed 2023-12-10
+
+FAMILY HISTORY
+Brother: Chronic low back pain.
+Sister: Emphysematous bronchitis.
+Father: Adolescent idiopathic scoliosis.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies palpitations, chest pain, fever.
+
+OBJECTIVE
+BMI 28.28 kg/m2; wt 84.5 kg; diastolic blood pressure 84 mm[Hg]; heart rate 88 /min; hemoglobin 16.809 g/dL; SBP 123 mm[Hg].
+Immunizations given: hepatitis a vaccine, adult dosage, influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Social 
+---
+Outpatient note, 2018-09-16:
+OUTPATIENT NOTE
+Date: 2018-09-16
+Patient: male, born 1983
+
+PAST MEDICAL HISTORY
+- Adolescent idiopathic scoliosis, diagnosed 1994-09-04
+- Periodontal disease, diagnosed 1996-08-04
+- Disorder of teeth AND/OR supporting structures, diagnosed 1999-08-22
+- Risk activity involvement, diagnosed 2001-08-19
+- Dental caries, diagnosed 2003-09-14
+- Gingivitis, diagnosed 2018-09-16
+
+FAMILY HISTORY
+Brother: Chronic low back pain.
+Sister: Emphysematous bronchitis.
+Father: Adolescent idiopathic scoliosis.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies fatigue, headache, shortness of breath.
+
+OBJECTIVE
+BMI 28.19 kg/m2; HDL cholesterol 29.95 mg/dL; LDL cholesterol 108.73 mg/dL; wt 84.3 kg; DBP 83 mm[Hg]; heart rate 97 /min; hemoglobin 12.753 g/dL; SBP 123 mm[Hg]; total ",yes,
+c338,Does this patient currently have risk activity involvement?,"Risk activity involvement, diagnosed 1971-11-15",15/11/1971,"Outpatient note, 2025-05-31:
+OUTPATIENT NOTE
+Date: 2025-05-31
+Patient: female, born 1954
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1971-11-15
+- Body mass index 30+ - obesity, diagnosed 1994-10-02
+- Prediabetes, diagnosed 1998-10-11
+- Gingivitis, diagnosed 2016-12-05
+- h/o Concussion injury of brain, resolved 2025-05-31
+
+FAMILY HISTORY
+Sister: Ischemic heart disease.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies fatigue, leg swelling, weight loss.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Emergency Room note, 2025-03-03:
+EMERGENCY ROOM NOTE
+Date: 2025-03-03
+Patient: female, born 1954
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1971-11-15
+- Body mass index 30+ - obesity, diagnosed 1994-10-02
+- Prediabetes, diagnosed 1998-10-11
+- Gingivitis, diagnosed 2016-12-05
+- Concussion injury of brain, diagnosed 2025-03-03
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies cough, palpitations, headache.
+
+ASSESSMENT AND PLAN
+New diagnosis: Concussion injury of brain.
+
+---
+Outpatient note, 2025-01-19:
+OUTPATIENT NOTE
+Date: 2025-01-19
+Patient: female, born 1954
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1971-11-15
+- Body mass index 30+ - obesity, diagnosed 1994-10-02
+- Prediabetes, diagnosed 1998-10-11
+- Gingivitis, diagnosed 2016-12-05
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies blurred vision, headache, cough.
+
+OBJECTIVE
+BMI 30.05 kg/m2; HbA1c 6.15 %; blood glucose 83.83 mg/dL; wt 75.5 kg; creatinine 0.93 mg/dL; diastolic blood pressure 80 mm[Hg]; HR 65 /min; potassium 4.32 mmol/L; sodium 139.4 mmol/L; SBP 111 mm[Hg]; urea nitrogen 18.09 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+No evidence of Emphysematous bronchitis.
+
+---
+Outpatient note, 2024-10-03:
+OUTPATIENT NOTE
+Date: 2024-10-03
+Patient: female, born 1954
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1971-11-15
+- Body mass index 30+ - obesity, diagnosed 1994-10-02
+- Prediabetes, diagnosed 1998-10-11
+- Gingivitis, diagnosed 2016-12-05
+- history of Social isolation, resolved 2022-01-02
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies nausea, weight loss, SOB.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2024-01-28:
+OUTPATIENT NOTE
+Date: 2024-01-28
+Patient: female, born 1954
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1971-11-15
+- Body mass index 30+ - obesity, diagnosed 1994-10-02
+- Prediabetes, diagnosed 1998-10-11
+- Gingivitis, diagnosed 2016-12-05
+- history of Social isolation, resolved 2022-01-02
+
+FAMILY HISTORY
+Sister: Ischemic heart disease.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies nausea, cough, fever.
+
+ASSESSMENT AND PLAN
+No evidence of Emphysematous bronchitis.
+",yes,
+c343,Does this patient currently have laceration - injury?,"Laceration - injury diagnosed 2022-06-23, resolved 2022-07-15 (historical, not current)",15/07/2022,"Outpatient note, 2023-11-03:
+OUTPATIENT NOTE
+Date: 2023-11-03
+Patient: male, born 2001
+
+PAST MEDICAL HISTORY
+- Viral sinusitis, diagnosed 2018-03-21
+- Social isolation, diagnosed 2019-08-25
+- history of Laceration - injury, resolved 2022-07-15
+- h/o Laceration of forearm, resolved 2022-07-15
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: ibuprofen (last prescribed 2022-06-23).
+
+REVIEW OF SYSTEMS
+Denies dizziness, headache, abdominal pain.
+
+ASSESSMENT AND PLAN
+New diagnosis: Viral sinusitis.
+No evidence of Abnormal findings diagnostic imaging heart+coronary circulat.
+
+---
+Outpatient note, 2023-09-03:
+OUTPATIENT NOTE
+Date: 2023-09-03
+Patient: male, born 2001
+
+PAST MEDICAL HISTORY
+- Social isolation, diagnosed 2019-08-25
+- history of Dental caries, resolved 2020-09-13
+- history of Generalized chronic periodontitis, resolved 2020-09-13
+- h/o Laceration - injury, resolved 2022-07-15
+- history of Laceration of forearm, resolved 2022-07-15
+
+FAMILY HISTORY
+Sister: Sleep disorder.
+Brother: Sleep apnea.
+Mother: IHD.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: ibuprofen (last prescribed 2022-06-23).
+
+REVIEW OF SYSTEMS
+Denies fever, fatigue, blurred vision.
+
+OBJECTIVE
+BMI 23.83 kg/m2; body weight 85.4 kg; DBP 67 mm[Hg]; heart rate 68 /min; hemoglobin 16.964 g/dL; SBP 94 mm[Hg].
+Immunizations given: hepatitis b vaccine, adult dosage, influenza, split virus, trivalent, injectable, 
+---
+Emergency Room note, 2022-06-23:
+EMERGENCY ROOM NOTE
+Date: 2022-06-23
+Patient: male, born 2001
+
+PAST MEDICAL HISTORY
+- Social isolation, diagnosed 2019-08-25
+- Laceration of forearm, diagnosed 2022-06-23
+- Laceration - injury, diagnosed 2022-06-23
+- history of Dental caries, resolved 2020-09-13
+- h/o Generalized chronic periodontitis, resolved 2020-09-13
+
+MEDICATIONS
+Current: ibuprofen (ibuprofen 200 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies fever, headache, weight loss.
+
+ASSESSMENT AND PLAN
+New diagnosis: Laceration - injury.
+New diagnosis: Laceration of forearm.
+Started ibuprofen (ibuprofen 200 MG Oral Tablet).
+",yes,diagnosis and resolution dates are in different cited excerpts
+c376,Which medications is this patient currently taking (as of 2025-02-21)?,alendronate,21/02/2025,"Outpatient note, 2025-02-21:
+OUTPATIENT NOTE
+Date: 2025-02-21
+Patient: female, born 1961
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 1978-08-11
+- Prediabetes, diagnosed 1980-08-22
+- Essential hypertension, diagnosed 1995-09-08
+- Anemia, diagnosed 1996-09-13
+- Osteoporosis, diagnosed 2022-02-04
+- Pulmonary emphysema, diagnosed 2024-06-28
+- Limited social contact, diagnosed 2025-02-21
+- history of Acute viral pharyngitis, resolved 2022-06-06
+- h/o Social isolation, resolved 2024-02-16
+- history of Tooth eruption disorder, resolved 2024-03-01
+- h/o Dental caries on pit and fissure surface limited to enamel, resolved 2024-03-01
+
+MEDICATIONS
+Current: albuterol (albuterol 5 MG/ML Inhalation Solution); alendronate (alendronic acid 10 MG Oral Tablet); fluticasone / salmeterol (60 ACTUAT fluticasone 
+---
+Outpatient note, 2025-02-21:
+NS
+Current: albuterol (albuterol 5 MG/ML Inhalation Solution); alendronate (alendronic acid 10 MG Oral Tablet); fluticasone / salmeterol (60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies joint pain, headache, dizziness.
+
+OBJECTIVE
+BMI 27.83 kg/m2; HbA1c 6.14 %; blood glucose 95.98 mg/dL; body weight 64.8 kg; creatinine 0.63 mg/dL; DBP 84 mm[Hg]; HR 61 /min; potassium 4.65 mmol/L; sodium 139.78 mmol/L; systolic blood pressure 122 mm[Hg]; urea nitrogen 12.87 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Limited social contact.
+Started albuterol (albuterol 5 MG/ML Inhalation Solution).
+Started 
+---
+Outpatient note, 2025-02-21:
+, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Limited social contact.
+Started albuterol (albuterol 5 MG/ML Inhalation Solution).
+Started alendronate (alendronic acid 10 MG Oral Tablet).
+Started fluticasone / salmeterol (60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler).
+Started lisinopril (lisinopril 10 MG Oral Tablet).
+",yes,
+c407,When was this patient first diagnosed with tooth eruption disorder?,Tooth eruption disorder first diagnosed,17/10/1996,"Outpatient note, 2023-12-28:
+OUTPATIENT NOTE
+Date: 2023-12-28
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1994-10-06
+- Tooth eruption disorder, diagnosed 1996-10-17
+- HTN, diagnosed 2018-11-15
+- h/o Gingivitis, resolved 2023-12-28
+
+MEDICATIONS
+Current: amlodipine (amlodipine 2.5 MG Oral Tablet); hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, dizziness, palpitations.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2020-12-10:
+OUTPATIENT NOTE
+Date: 2020-12-10
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1994-10-06
+- Tooth eruption disorder, diagnosed 1996-10-17
+- HTN, diagnosed 2018-11-15
+- history of Viral sinusitis, resolved 2019-04-14
+- h/o Concussion injury of brain, resolved 2020-08-19
+
+MEDICATIONS
+Current: amlodipine (amlodipine 2.5 MG Oral Tablet); hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet); lisinopril (lisinopril 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies CP, shortness of breath, dizziness.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2022-02-24:
+OUTPATIENT NOTE
+Date: 2022-02-24
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1994-10-06
+- Tooth eruption disorder, diagnosed 1996-10-17
+- Essential hypertension, diagnosed 2018-11-15
+- h/o Viral sinusitis, resolved 2019-04-14
+- history of Concussion injury of brain, resolved 2020-08-19
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: amlodipine (last prescribed 2021-12-02); hydrochlorothiazide (last prescribed 2021-12-02); lisinopril (last prescribed 2021-12-02).
+
+REVIEW OF SYSTEMS
+Denies headache, blurred vision, fatigue.
+
+ASSESSMENT AND PLAN
+No evidence of Disorder of kidney due to diabetes mellitus.
+
+---
+Outpatient note, 2020-08-19:
+OUTPATIENT NOTE
+Date: 2020-08-19
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1994-10-06
+- Tooth eruption disorder, diagnosed 1996-10-17
+- Essential hypertension, diagnosed 2018-11-15
+- history of Viral sinusitis, resolved 2019-04-14
+- h/o Concussion injury of brain, resolved 2020-08-19
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: amlodipine (last prescribed 2019-11-21); hydrochlorothiazide (last prescribed 2019-11-21); lisinopril (last prescribed 2019-11-21).
+
+REVIEW OF SYSTEMS
+Denies cough, abdominal pain, fever.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2019-04-14:
+OUTPATIENT NOTE
+Date: 2019-04-14
+Patient: male, born 1981
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1994-10-06
+- Tooth eruption disorder, diagnosed 1996-10-17
+- Essential hypertension, diagnosed 2018-11-15
+- h/o Viral sinusitis, resolved 2019-04-14
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: amlodipine (last prescribed 2018-12-15); hydrochlorothiazide (last prescribed 2018-11-15); lisinopril (last prescribed 2019-02-13).
+
+REVIEW OF SYSTEMS
+Denies fever, dizziness, weight loss.
+
+OBJECTIVE
+DBP 75 mm[Hg]; SBP 101 mm[Hg].
+
+ASSESSMENT AND PLAN
+No evidence of Chronic intractable migraine without aura.
+",yes,
+c411,Does this patient currently have dental caries?,"Dental caries (diagnosed 1995-04-18), resolved 2024-04-02; historical only",02/04/2024,"Outpatient note, 2024-04-09:
+OUTPATIENT NOTE
+Date: 2024-04-09
+Patient: male, born 1976
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1998-04-07
+- Anemia, diagnosed 2001-04-10
+- Social isolation, diagnosed 2013-04-23
+- Body mass index 30+ - obesity, diagnosed 2018-02-13
+- Viral sinusitis, diagnosed 2024-04-09
+- h/o Gingivitis, resolved 2022-03-29
+- h/o Acute viral pharyngitis, resolved 2023-02-25
+- history of Dental caries, resolved 2024-04-02
+- h/o Chronic periodontitis, resolved 2024-04-02
+
+FAMILY HISTORY
+Sister: Seizure disorder.
+Brother: Alzheimer's disease.
+Father: Fibromyalgia.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies headache, CP, fever.
+
+ASSESSMENT AND PLAN
+New diagnosis: Viral sinusitis.
+
+---
+Outpatient note, 2024-04-02:
+OUTPATIENT NOTE
+Date: 2024-04-02
+Patient: male, born 1976
+
+PAST MEDICAL HISTORY
+- Prediabetes, diagnosed 1998-04-07
+- Anemia, diagnosed 2001-04-10
+- Social isolation, diagnosed 2013-04-23
+- Body mass index 30+ - obesity, diagnosed 2018-02-13
+- h/o Gingivitis, resolved 2022-03-29
+- history of Acute viral pharyngitis, resolved 2023-02-25
+- h/o Dental caries, resolved 2024-04-02
+- h/o Chronic periodontitis, resolved 2024-04-02
+
+FAMILY HISTORY
+Sister: Seizure disorder.
+Brother: Alzheimer's disease.
+Father: Fibromyalgia.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies blurred vision, headache, leg swelling.
+
+ASSESSMENT AND PLAN
+No evidence of Alzheimer's disease.
+
+---
+Outpatient note, 2024-03-19:
+OUTPATIENT NOTE
+Date: 2024-03-19
+Patient: male, born 1976
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 1995-04-18
+- Dental caries, diagnosed 1995-04-18
+- Prediabetes, diagnosed 1998-04-07
+- Anemia, diagnosed 2001-04-10
+- Social isolation, diagnosed 2013-04-23
+- Body mass index 30+ - obesity, diagnosed 2018-02-13
+- h/o Gingivitis, resolved 2022-03-29
+- history of Acute viral pharyngitis, resolved 2023-02-25
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies nausea, abdominal pain, cough.
+
+OBJECTIVE
+BMI 28.56 kg/m2; HbA1c 5.87 %; blood glucose 84.42 mg/dL; body weight 99.7 kg; creatinine 1.27 mg/dL; DBP 71 mm[Hg]; heart rate 68 /min; potassium 4.21 mmol/L; sodium 142.75 mmol/L; SBP 114 mm[Hg]; urea nitrogen 16.52 mg/dL.
+Immunizations given: influenza, split ",yes,diagnosis and resolution dates are in different cited excerpts
+c418,"What was this patient's most recent total cholesterol result, and on what date?",Total cholesterol 176.44 mg/dL,22/07/2023,"Outpatient note, 2023-07-22:
+OUTPATIENT NOTE
+Date: 2023-07-22
+Patient: male, born 1989
+
+PAST MEDICAL HISTORY
+- Adolescent idiopathic scoliosis, diagnosed 1999-07-12
+- Social isolation, diagnosed 2007-06-30
+- Sepsis, diagnosed 2023-06-20
+- history of COVID-19, resolved 2021-01-07
+- h/o Nasal congestion, resolved 2021-01-07
+- h/o Fever, resolved 2021-01-07
+- h/o Cough, resolved 2021-01-07
+- h/o Viral sinusitis, resolved 2023-03-13
+- history of Limited social contact, resolved 2023-07-22
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies chest pain, fatigue, leg swelling.
+
+OBJECTIVE
+BMI 26.23 kg/m2; HDL cholesterol 57.33 mg/dL; LDL cholesterol 91.46 mg/dL; body weight 77 kg; DBP 85 mm[Hg]; heart rate 82 /min; hemoglobin 16.686 g/dL; systolic blood pressure 117 mm[Hg]; total cholesterol 176.44 
+---
+Outpatient note, 2023-07-22:
+esterol 91.46 mg/dL; body weight 77 kg; DBP 85 mm[Hg]; heart rate 82 /min; hemoglobin 16.686 g/dL; systolic blood pressure 117 mm[Hg]; total cholesterol 176.44 mg/dL; triglycerides 138.24 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",yes,
+c419,Does this patient currently have abnormal findings diagnostic imaging heart+coronary circulat?,Abnormal findings diagnostic imaging heart+coronary circulat,23/09/2019,"Outpatient note, 2025-11-15:
+OUTPATIENT NOTE
+Date: 2025-11-15
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1976-08-07
+- Recurrent urinary tract infection, diagnosed 2003-01-22
+- Anemia, diagnosed 2005-06-25
+- Prediabetes, diagnosed 2005-06-25
+- HLD, diagnosed 2008-07-12
+- Ischemic heart disease, diagnosed 2019-09-14
+- Gingivitis, diagnosed 2019-09-14
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2019-09-23
+- history of Social isolation, resolved 2023-10-07
+- h/o Severe anxiety (panic), resolved 2024-10-12
+- history of Acute bronchitis, resolved 2025-11-13
+
+FAMILY HISTORY
+Sister: HLD.
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet); simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies nausea, abdominal 
+---
+Outpatient note, 2025-11-08:
+OUTPATIENT NOTE
+Date: 2025-11-08
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1976-08-07
+- Recurrent urinary tract infection, diagnosed 2003-01-22
+- Anemia, diagnosed 2005-06-25
+- Prediabetes, diagnosed 2005-06-25
+- HLD, diagnosed 2008-07-12
+- Ischemic heart disease, diagnosed 2019-09-14
+- Gingivitis, diagnosed 2019-09-14
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2019-09-23
+- Acute bronchitis, diagnosed 2025-10-24
+- history of Social isolation, resolved 2023-10-07
+- h/o Severe anxiety (panic), resolved 2024-10-12
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet); simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies dizziness, cough, weight loss.
+
+OBJECTIVE
+HbA1c 6.29 %.
+
+
+---
+Outpatient note, 2025-10-19:
+OUTPATIENT NOTE
+Date: 2025-10-19
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1976-08-07
+- Recurrent urinary tract infection, diagnosed 2003-01-22
+- Anemia, diagnosed 2005-06-25
+- Prediabetes, diagnosed 2005-06-25
+- Hyperlipidemia, diagnosed 2008-07-12
+- Ischemic heart disease, diagnosed 2019-09-14
+- Gingivitis, diagnosed 2019-09-14
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2019-09-23
+- history of Social isolation, resolved 2023-10-07
+- history of Severe anxiety (panic), resolved 2024-10-12
+
+MEDICATIONS
+Current: simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies headache, fatigue, CP.
+
+OBJECTIVE
+HDL cholesterol 75.01 mg/dL; LDL cholesterol 93.094 mg/dL; BG 70.1 mg/dL; creatinine 2.8778 mg/dL; 
+---
+Outpatient note, 2025-10-18:
+OUTPATIENT NOTE
+Date: 2025-10-18
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1976-08-07
+- Recurrent urinary tract infection, diagnosed 2003-01-22
+- Anemia, diagnosed 2005-06-25
+- Prediabetes, diagnosed 2005-06-25
+- Hyperlipidemia, diagnosed 2008-07-12
+- IHD, diagnosed 2019-09-14
+- Gingivitis, diagnosed 2019-09-14
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2019-09-23
+- history of Social isolation, resolved 2023-10-07
+- history of Severe anxiety (panic), resolved 2024-10-12
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: simvastatin (last prescribed 2024-10-19).
+
+REVIEW OF SYSTEMS
+Denies palpitations, weight loss, cough.
+
+OBJECTIVE
+BMI 30.23 kg/m2; HDL cholesterol 29.96 mg/dL; HbA1c 5.88 %; LDL 
+---
+Outpatient note, 2024-10-19:
+OUTPATIENT NOTE
+Date: 2024-10-19
+Patient: male, born 1951
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1976-08-07
+- Recurrent urinary tract infection, diagnosed 2003-01-22
+- Anemia, diagnosed 2005-06-25
+- Prediabetes, diagnosed 2005-06-25
+- HLD, diagnosed 2008-07-12
+- IHD, diagnosed 2019-09-14
+- Gingivitis, diagnosed 2019-09-14
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2019-09-23
+- h/o Social isolation, resolved 2023-10-07
+- h/o Severe anxiety (panic), resolved 2024-10-12
+
+FAMILY HISTORY
+Sister: Hyperlipidemia.
+
+MEDICATIONS
+Current: simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies headache, blurred vision, joint pain.
+
+OBJECTIVE
+HDL cholesterol 79.004 mg/dL; LDL cholesterol 145.15 mg/dL; blood glucose 66.18 mg/dL; ",yes,
+c441,Why was acetaminophen discontinued?,Course completed (acetaminophen discontinued after 2020-07-03 because the course was completed),03/07/2020,"Outpatient note, 2020-08-02:
+OUTPATIENT NOTE
+Date: 2020-08-02
+Patient: female, born 2003
+
+PAST MEDICAL HISTORY
+- Chronic sinusitis, diagnosed 2005-01-09
+- Dental caries, diagnosed 2015-11-01
+- Periodontal disease, diagnosed 2015-11-01
+- history of Viral sinusitis, resolved 2017-09-15
+- h/o Fracture of forearm, resolved 2020-08-02
+- h/o Fracture of bone, resolved 2020-08-02
+
+FAMILY HISTORY
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen (last prescribed 2020-06-04).
+
+REVIEW OF SYSTEMS
+Denies cough, shortness of breath, headache.
+
+ASSESSMENT AND PLAN
+Acetaminophen was discontinued after 2020-07-03 due to the course being completed.
+No evidence of Adolescent idiopathic scoliosis.
+",yes,
+c487,Which medications is this patient currently taking (as of 2025-11-06)?,fentanyl,06/11/2025,"Outpatient note, 2025-11-06:
+OUTPATIENT NOTE
+Date: 2025-11-06
+Patient: female, born 2001
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2015-09-10
+- Chronic pain, diagnosed 2019-09-14
+- Chronic low back pain, diagnosed 2019-09-14
+- Social isolation, diagnosed 2019-10-03
+- Limited social contact, diagnosed 2021-10-14
+- h/o Normal pregnancy, resolved 2024-06-07
+
+MEDICATIONS
+Current: acetaminophen / codeine (acetaminophen 300 MG / codeine phosphate 15 MG Oral Tablet); albuterol (NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]); fentanyl (72 HR fentanyl 0.025 MG/HR Transdermal System); fluticasone (120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]).
+Previously: ethinyl estradiol / inert ingredients / norgestimate (last prescribed 2024-09-08); ethinyl ",yes,
+c526,Why was norethindrone discontinued?,Patient preference,28/05/2024,"Outpatient note, 2024-12-15:
+MG / hydrocodone bitartrate 5 MG Oral Tablet).
+Previously: norethindrone (last prescribed 2024-04-29).
+
+REVIEW OF SYSTEMS
+Denies weight loss, cough, headache.
+
+OBJECTIVE
+BMI 25.78 kg/m2; body weight 61.3 kg; DBP 80 mm[Hg]; heart rate 94 /min; systolic blood pressure 136 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Started acetaminophen / hydrocodone (acetaminophen 300 MG / hydrocodone bitartrate 5 MG Oral Tablet).
+Norethindrone was discontinued after 2024-05-28 due to patient preference.
+",yes,
+c530,"Is there a family history of chronic low back pain, and if so in which relative?",Father: chronic low back pain,17/06/2025,"Outpatient note, 2020-05-19:
+OUTPATIENT NOTE
+Date: 2020-05-19
+Patient: female, born 1978
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 1996-07-16
+- Body mass index 30+ - obesity, diagnosed 2000-03-21
+- Dental caries, diagnosed 2012-05-29
+- Essential hypertension, diagnosed 2015-04-07
+- h/o Acute viral pharyngitis, resolved 2019-10-11
+- h/o Gingivitis, resolved 2020-05-19
+
+FAMILY HISTORY
+Father: Chronic low back pain.
+Mother: Chronic congestive heart failure.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies fatigue, cough, headache.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2025-06-17:
+OUTPATIENT NOTE
+Date: 2025-06-17
+Patient: female, born 1978
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 2000-03-21
+- HTN, diagnosed 2015-04-07
+- h/o Acute viral pharyngitis, resolved 2022-09-07
+- h/o Social isolation, resolved 2024-05-28
+- history of Severe anxiety (panic), resolved 2025-06-03
+- history of Chronic periodontitis, resolved 2025-06-17
+- h/o Dental caries, resolved 2025-06-17
+
+FAMILY HISTORY
+Father: Chronic low back pain.
+Mother: Chronic congestive heart failure.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies CP, leg swelling, fever.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2024-05-28:
+OUTPATIENT NOTE
+Date: 2024-05-28
+Patient: female, born 1978
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 1996-07-16
+- Body mass index 30+ - obesity, diagnosed 2000-03-21
+- Dental caries, diagnosed 2012-05-29
+- Essential hypertension, diagnosed 2015-04-07
+- Severe anxiety (panic), diagnosed 2023-05-23
+- history of Viral sinusitis, resolved 2021-06-15
+- history of Acute viral pharyngitis, resolved 2022-09-07
+- h/o Social isolation, resolved 2024-05-28
+
+FAMILY HISTORY
+Father: Chronic low back pain.
+Mother: Chronic congestive heart failure.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies palpitations, leg swelling, weight loss.
+
+OBJECTIVE
+BMI 29.24 kg/m2; HDL cholesterol 50.69 mg/dL; LDL cholesterol 99.75 mg/dL; wt 83.5 
+---
+Outpatient note, 2021-05-25:
+OUTPATIENT NOTE
+Date: 2021-05-25
+Patient: female, born 1978
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 1996-07-16
+- Body mass index 30+ - obesity, diagnosed 2000-03-21
+- Dental caries, diagnosed 2012-05-29
+- Essential hypertension, diagnosed 2015-04-07
+- Social isolation, diagnosed 2021-05-11
+- h/o Acute viral pharyngitis, resolved 2019-10-11
+- h/o Gingivitis, resolved 2021-05-25
+
+FAMILY HISTORY
+Father: Chronic low back pain.
+Mother: Chronic congestive heart failure.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies nausea, headache, leg swelling.
+
+ASSESSMENT AND PLAN
+No evidence of Chronic sinusitis.
+
+---
+Outpatient note, 2016-04-12:
+OUTPATIENT NOTE
+Date: 2016-04-12
+Patient: female, born 1978
+
+PAST MEDICAL HISTORY
+- Chronic periodontitis, diagnosed 1996-07-16
+- Body mass index 30+ - obesity, diagnosed 2000-03-21
+- Dental caries, diagnosed 2012-05-29
+- Essential hypertension, diagnosed 2015-04-07
+- Limited social contact, diagnosed 2016-04-12
+
+FAMILY HISTORY
+Father: Chronic low back pain.
+Mother: Chronic congestive heart failure.
+
+MEDICATIONS
+Current: hydrochlorothiazide (hydrochlorothiazide 25 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies shortness of breath, joint pain, headache.
+
+OBJECTIVE
+BMI 29.24 kg/m2; wt 83.5 kg; diastolic blood pressure 82 mm[Hg]; HR 86 /min; SBP 135 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Limited social ",yes,
+c540,Does this patient currently have chronic pain?,Chronic pain,23/08/2015,"Outpatient note, 2025-08-15:
+OUTPATIENT NOTE
+Date: 2025-08-15
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2011-08-19
+- Chronic pain, diagnosed 2015-08-23
+- Chronic low back pain, diagnosed 2015-08-23
+- Chronic neck pain, diagnosed 2015-08-23
+- Normal pregnancy, diagnosed 2019-06-07
+- Prediabetes, diagnosed 2020-10-09
+- Dental caries, diagnosed 2020-10-23
+- Anemia, diagnosed 2021-10-15
+- Limited social contact, diagnosed 2021-10-15
+- Social isolation, diagnosed 2022-10-21
+- h/o Gingivitis, resolved 2023-11-10
+- h/o Viral sinusitis, resolved 2023-11-19
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen / oxycodone (last prescribed 2024-11-01).
+
+REVIEW OF SYSTEMS
+Denies fever, cough, headache.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2024-11-01:
+OUTPATIENT NOTE
+Date: 2024-11-01
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2011-08-19
+- Chronic pain, diagnosed 2015-08-23
+- Chronic low back pain, diagnosed 2015-08-23
+- Chronic neck pain, diagnosed 2015-08-23
+- Normal pregnancy, diagnosed 2019-06-07
+- Prediabetes, diagnosed 2020-10-09
+- Dental caries, diagnosed 2020-10-23
+- Anemia, diagnosed 2021-10-15
+- Limited social contact, diagnosed 2021-10-15
+- Social isolation, diagnosed 2022-10-21
+- history of Gingivitis, resolved 2023-11-10
+- history of Viral sinusitis, resolved 2023-11-19
+
+FAMILY HISTORY
+Sister: Malignant neoplasm of breast.
+Mother: Malignant neoplasm of breast.
+Brother: Disorder of kidney due to diabetes mellitus.
+
+MEDICATIONS
+Current: acetaminophen / oxycodone (acetaminophen 325 
+---
+Outpatient note, 2023-10-27:
+OUTPATIENT NOTE
+Date: 2023-10-27
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2011-08-19
+- Chronic pain, diagnosed 2015-08-23
+- Chronic low back pain, diagnosed 2015-08-23
+- Chronic neck pain, diagnosed 2015-08-23
+- Gingivitis, diagnosed 2017-09-22
+- Prediabetes, diagnosed 2020-10-09
+- Dental caries, diagnosed 2020-10-23
+- Anemia, diagnosed 2021-10-15
+- Limited social contact, diagnosed 2021-10-15
+- Social isolation, diagnosed 2022-10-21
+
+MEDICATIONS
+Current: acetaminophen / oxycodone (acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet]).
+Previously: ethinyl estradiol / inert ingredients / levonorgestrel (last prescribed 2023-02-19).
+
+REVIEW OF SYSTEMS
+Denies palpitations, abdominal pain, SOB.
+
+OBJECTIVE
+BMI 22.49 kg/m2; 
+---
+Outpatient note, 2020-10-23:
+OUTPATIENT NOTE
+Date: 2020-10-23
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2011-08-19
+- Chronic pain, diagnosed 2015-08-23
+- Chronic low back pain, diagnosed 2015-08-23
+- Chronic neck pain, diagnosed 2015-08-23
+- Prediabetes, diagnosed 2020-10-09
+- Dental caries, diagnosed 2020-10-23
+- history of Normal pregnancy, resolved 2020-01-17
+- h/o Pre-eclampsia, resolved 2020-01-17
+- history of Gingivitis, resolved 2020-10-23
+
+MEDICATIONS
+Current: acetaminophen / oxycodone (acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet]).
+
+REVIEW OF SYSTEMS
+Denies cough, dizziness, joint pain.
+
+ASSESSMENT AND PLAN
+New diagnosis: Dental caries.
+No evidence of Malignant neoplasm of breast.
+
+---
+Outpatient note, 2020-10-09:
+OUTPATIENT NOTE
+Date: 2020-10-09
+Patient: female, born 1997
+
+PAST MEDICAL HISTORY
+- Risk activity involvement, diagnosed 2011-08-19
+- Chronic pain, diagnosed 2015-08-23
+- Chronic low back pain, diagnosed 2015-08-23
+- Chronic neck pain, diagnosed 2015-08-23
+- Gingivitis, diagnosed 2017-09-22
+- Prediabetes, diagnosed 2020-10-09
+- history of Normal pregnancy, resolved 2020-01-17
+- history of Pre-eclampsia, resolved 2020-01-17
+
+MEDICATIONS
+Current: acetaminophen / oxycodone (acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet]).
+
+REVIEW OF SYSTEMS
+Denies leg swelling, joint pain, abdominal pain.
+
+OBJECTIVE
+BMI 22.49 kg/m2; HbA1c 5.89 %; BG 70.05 mg/dL; body weight 66 kg; creatinine 0.91 mg/dL; diastolic blood pressure 75 mm[Hg]; heart rate 64 /min; potassium 5.06 ",yes,
+c553,"What was this patient's most recent BMI result, and on what date?",BMI 24.42 kg/m2,11/10/2023,"Outpatient note, 2023-10-11:
+TIONS
+Current: acetaminophen / oxycodone (acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Percocet]); buprenorphine / naloxone (buprenorphine 2 MG / naloxone 0.5 MG Sublingual Tablet); fentanyl (72 HR fentanyl 0.025 MG/HR Transdermal System); hydrocodone (12 HR hydrocodone bitartrate 10 MG Extended Release Oral Capsule); tramadol (tramadol hydrochloride 50 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies blurred vision, dizziness, headache.
+
+OBJECTIVE
+BMI 24.42 kg/m2; wt 65.1 kg; diastolic blood pressure 76 mm[Hg]; heart rate 73 /min; hemoglobin 13.811 g/dL; SBP 136 mm[Hg].
+Immunizations given: hepatitis b vaccine, adult dosage, influenza, split virus, trivalent, injectable, preservative free, meningococcal polysaccharide (groups a, c, y and w-135) diphtheria toxoid conjugate ",yes,
+c569,When was this patient first diagnosed with fracture of bone?,Fracture of bone first diagnosed 2017-03-31 (later resolved 2017-05-26),31/03/2017,"Emergency Room note, 2017-03-31:
+EMERGENCY ROOM NOTE
+Date: 2017-03-31
+Patient: male, born 1967
+
+PAST MEDICAL HISTORY
+- Chronic sinusitis, diagnosed 1971-05-22
+- Dental caries, diagnosed 1981-11-20
+- Anemia, diagnosed 2002-02-01
+- Prediabetes, diagnosed 2002-02-01
+- T2DM, diagnosed 2011-12-02
+- Metabolic syndrome X, diagnosed 2012-12-28
+- Hypertriglyceridemia, diagnosed 2012-12-28
+- Fracture of bone, diagnosed 2017-03-31
+- Fracture of forearm, diagnosed 2017-03-31
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet); meperidine (meperidine hydrochloride 50 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies weight loss, dizziness, headache.
+
+ASSESSMENT AND PLAN
+New diagnosis: Fracture of bone.
+New diagnosis: Fracture of forearm.
+Started acetaminophen (acetaminophen 325 MG Oral Tablet).
+Started meperidine ",no,resolution date 2017-05-26 not in the excerpt
+c572,Why was acetaminophen discontinued?,Patient preference,20/11/2019,"Outpatient note, 2019-11-29:
+ctive prescriptions.
+Previously: acetaminophen (last prescribed 2019-10-22).
+
+REVIEW OF SYSTEMS
+Denies palpitations, cough, CP.
+
+OBJECTIVE
+BMI 27.97 kg/m2; HDL cholesterol 47.44 mg/dL; HbA1c 6.99 %; LDL cholesterol 157.8 mg/dL; BG 104.55 mg/dL; wt 81.4 kg; creatinine 0.99 mg/dL; DBP 73 mm[Hg]; eGFR 135.49 mL/min/{1.73_m2}; heart rate 92 /min; potassium 3.93 mmol/L; sodium 136.2 mmol/L; systolic blood pressure 116 mm[Hg]; total cholesterol 238.03 mg/dL; triglycerides 163.96 mg/dL; urea nitrogen 19.6 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+New diagnosis: Gingivitis.
+Acetaminophen was discontinued after 2019-11-20 due to patient preference.
+No evidence of Osteoarthritis of knee.
+",yes,
+c586,Why was naproxen discontinued?,Naproxen was discontinued because the course was completed (discontinued after 2025-06-15),15/06/2025,"Outpatient note, 2025-08-16:
+ve prescriptions.
+Previously: ibuprofen (last prescribed 2024-02-24); naproxen (last prescribed 2025-05-17).
+
+REVIEW OF SYSTEMS
+Denies dizziness, fever, cough.
+
+OBJECTIVE
+BMI 30.01 kg/m2; HbA1c 6.17 %; BG 81.88 mg/dL; body weight 81.8 kg; creatinine 0.76 mg/dL; diastolic blood pressure 77 mm[Hg]; HR 82 /min; potassium 3.77 mmol/L; sodium 142.66 mmol/L; systolic blood pressure 96 mm[Hg]; urea nitrogen 10.62 mg/dL.
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free, tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 lf of tetanus toxoid and 2 lf of diphtheria toxoid).
+
+ASSESSMENT AND PLAN
+New diagnosis: Limited social contact.
+Naproxen was discontinued after 2025-06-15 due to the course being completed.
+",yes,
+c595,Why was amoxicillin / clavulanate discontinued?,Course completed,05/05/2025,"Outpatient note, 2025-06-05:
+04-13
+- h/o Dental caries, resolved 2025-04-13
+- h/o Gingivitis, resolved 2025-04-13
+- history of Viral sinusitis, resolved 2025-04-20
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: acetaminophen / hydrocodone (last prescribed 2025-03-30); acetaminophen / oxycodone (last prescribed 2025-03-30); amlodipine (last prescribed 2025-03-30); amoxicillin / clavulanate (last prescribed 2025-04-06); fentanyl (last prescribed 2025-03-30); hydrocodone (last prescribed 2025-03-30).
+
+REVIEW OF SYSTEMS
+Denies fatigue, blurred vision, dizziness.
+
+ASSESSMENT AND PLAN
+New diagnosis: Acute viral pharyngitis.
+Amoxicillin / clavulanate was discontinued after 2025-05-05 due to the course being completed.
+",yes,
+c603,"Is there a family history of chronic pain, and if so in which relative?",Brother: chronic pain,30/07/2025,"Outpatient note, 2019-06-26:
+OUTPATIENT NOTE
+Date: 2019-06-26
+Patient: female, born 1956
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 1996-04-10
+- Prediabetes, diagnosed 1996-04-10
+- Chronic sinusitis, diagnosed 2001-01-22
+- HLD, diagnosed 2009-04-22
+- Dental caries, diagnosed 2015-11-18
+- history of Gingivitis, resolved 2017-06-21
+
+FAMILY HISTORY
+Brother: Chronic pain.
+Sister: Proteinuria due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies joint pain, dizziness, chest pain.
+
+OBJECTIVE
+HDL cholesterol 52.144 mg/dL; LDL cholesterol 140.84 mg/dL; blood glucose 79.78 mg/dL; creatinine 3.0998 mg/dL; eGFR 77.395 mL/min; potassium 4.62 mmol/L; sodium 143.12 mmol/L; total cholesterol 209.75 mg/dL; triglycerides 109.3 mg/dL; urea nitrogen 15.56 mg/dL.
+
+
+---
+Outpatient note, 2024-07-17:
+OUTPATIENT NOTE
+Date: 2024-07-17
+Patient: female, born 1956
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 1996-04-10
+- Prediabetes, diagnosed 1996-04-10
+- Chronic sinusitis, diagnosed 2001-01-22
+- HLD, diagnosed 2009-04-22
+- Gingivitis, diagnosed 2017-06-08
+- h/o Fracture of ankle, resolved 2022-07-19
+- history of Fracture of bone, resolved 2022-07-19
+
+FAMILY HISTORY
+Brother: Chronic pain.
+Sister: Proteinuria due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: simvastatin (last prescribed 2023-07-19).
+
+REVIEW OF SYSTEMS
+Denies nausea, joint pain, fever.
+
+OBJECTIVE
+BMI 27.6 kg/m2; HDL cholesterol 50.95 mg/dL; HbA1c 6.36 %; LDL cholesterol 114.59 mg/dL; BG 79.95 mg/dL; body weight 69.6 kg; creatinine 0.81 mg/dL; diastolic blood pressure 79 mm[Hg]; heart 
+---
+Outpatient note, 2016-06-04:
+OUTPATIENT NOTE
+Date: 2016-06-04
+Patient: female, born 1956
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 1996-04-10
+- Prediabetes, diagnosed 1996-04-10
+- Chronic sinusitis, diagnosed 2001-01-22
+- Hyperlipidemia, diagnosed 2009-04-22
+- Dental caries, diagnosed 2015-11-18
+
+FAMILY HISTORY
+Brother: Chronic pain.
+Sister: Proteinuria due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies joint pain, headache, abdominal pain.
+
+OBJECTIVE
+HDL cholesterol 42.352 mg/dL; LDL cholesterol 147.02 mg/dL; BG 66.07 mg/dL; creatinine 2.7022 mg/dL; eGFR 78.066 mL/min; potassium 4.26 mmol/L; sodium 137.83 mmol/L; total cholesterol 162.27 mg/dL; triglycerides 110.96 mg/dL; urea nitrogen 9.55 mg/dL.
+
+ASSESSMENT AND PLAN
+Started simvastatin 
+---
+Outpatient note, 2016-04-11:
+OUTPATIENT NOTE
+Date: 2016-04-11
+Patient: female, born 1956
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 1996-04-10
+- Prediabetes, diagnosed 1996-04-10
+- Chronic sinusitis, diagnosed 2001-01-22
+- Hyperlipidemia, diagnosed 2009-04-22
+- Dental caries, diagnosed 2015-11-18
+
+FAMILY HISTORY
+Brother: Chronic pain.
+Sister: Proteinuria due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: simvastatin (last prescribed 2015-06-05).
+
+REVIEW OF SYSTEMS
+Denies dizziness, weight loss, leg swelling.
+
+ASSESSMENT AND PLAN
+No evidence of Sleep apnea.
+
+---
+Outpatient note, 2025-07-30:
+OUTPATIENT NOTE
+Date: 2025-07-30
+Patient: female, born 1956
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 1996-04-10
+- Prediabetes, diagnosed 1996-04-10
+- Chronic sinusitis, diagnosed 2001-01-22
+- Hyperlipidemia, diagnosed 2009-04-22
+- Gingivitis, diagnosed 2017-06-08
+
+FAMILY HISTORY
+Brother: Chronic pain.
+Sister: Proteinuria due to type 2 diabetes mellitus.
+
+MEDICATIONS
+Current: simvastatin (simvastatin 10 MG Oral Tablet).
+
+REVIEW OF SYSTEMS
+Denies cough, blurred vision, abdominal pain.
+
+OBJECTIVE
+HDL cholesterol 72.408 mg/dL; LDL cholesterol 111.09 mg/dL; BG 69.63 mg/dL; creatinine 3.4025 mg/dL; eGFR 65.027 mL/min; potassium 4.73 mmol/L; sodium 142.73 mmol/L; total cholesterol 207.85 mg/dL; triglycerides 180.96 mg/dL; urea nitrogen 12.55 mg/dL.
+
+ASSESSMENT AND PLAN
+Started simvastatin ",yes,
+c632,Which medications is this patient currently taking (as of 2025-07-26)?,ibuprofen,26/07/2025,"Outpatient note, 2025-07-26:
+OUTPATIENT NOTE
+Date: 2025-07-26
+Patient: male, born 1988
+
+PAST MEDICAL HISTORY
+- Chronic intractable migraine without aura, diagnosed 2002-05-15
+- Impacted molars, diagnosed 2002-08-11
+- Chronic pain, diagnosed 2002-12-19
+- Chronic low back pain, diagnosed 2014-02-03
+- Anemia, diagnosed 2021-07-03
+- T2DM, diagnosed 2021-07-03
+- Metabolic syndrome X, diagnosed 2022-07-09
+- Hypertriglyceridemia, diagnosed 2022-07-09
+- Social isolation, diagnosed 2025-07-26
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]).
+
+REVIEW OF SYSTEMS
+Denies abdominal pain, SOB, fever.
+
+OBJECTIVE
+BMI 27.92 kg/m2; HDL cholesterol 53.65 mg/dL; ",yes,
+c634,"Is there a family history of malignant neoplasm of breast, and if so in which relative?",Sister: malignant neoplasm of breast,02/08/2022,"Outpatient note, 2022-08-02:
+022-07-23
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]).
+
+REVIEW OF SYSTEMS
+Denies fever, weight loss, SOB.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2019-06-29:
+OUTPATIENT NOTE
+Date: 2019-06-29
+Patient: male, born 1988
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1998-03-28
+- Chronic intractable migraine without aura, diagnosed 2002-05-15
+- Impacted molars, diagnosed 2002-08-11
+- Chronic pain, diagnosed 2002-12-19
+- Chronic low back pain, diagnosed 2014-02-03
+- Limited social contact, diagnosed 2019-06-22
+- Acute bronchitis, diagnosed 2019-06-29
+- history of Overdose, resolved 2018-07-24
+- history of Gingivitis, resolved 2018-11-03
+- history of Viral sinusitis, resolved 2018-11-04
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: acetaminophen (acetaminophen 325 MG Oral Tablet); ibuprofen (ibuprofen 400 MG Oral 
+---
+Outpatient note, 2021-12-24:
+OUTPATIENT NOTE
+Date: 2021-12-24
+Patient: male, born 1988
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1998-03-28
+- Chronic intractable migraine without aura, diagnosed 2002-05-15
+- Impacted molars, diagnosed 2002-08-11
+- Chronic pain, diagnosed 2002-12-19
+- Chronic low back pain, diagnosed 2014-02-03
+- Anemia, diagnosed 2021-07-03
+- Type 2 diabetes mellitus, diagnosed 2021-07-03
+- h/o Acute bronchitis, resolved 2019-07-14
+- h/o Limited social contact, resolved 2020-06-27
+- history of Gingivitis, resolved 2020-08-22
+- history of Overdose, resolved 2021-01-10
+- history of Viral sinusitis, resolved 2021-03-24
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: 
+---
+Outpatient note, 2021-08-07:
+OUTPATIENT NOTE
+Date: 2021-08-07
+Patient: male, born 1988
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1998-03-28
+- Chronic intractable migraine without aura, diagnosed 2002-05-15
+- Impacted molars, diagnosed 2002-08-11
+- Chronic pain, diagnosed 2002-12-19
+- Chronic low back pain, diagnosed 2014-02-03
+- Anemia, diagnosed 2021-07-03
+- Type 2 diabetes mellitus, diagnosed 2021-07-03
+- h/o Acute bronchitis, resolved 2019-07-14
+- history of Limited social contact, resolved 2020-06-27
+- history of Gingivitis, resolved 2020-08-22
+- history of Overdose, resolved 2021-01-10
+- h/o Viral sinusitis, resolved 2021-03-24
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: 
+---
+Outpatient note, 2016-05-21:
+OUTPATIENT NOTE
+Date: 2016-05-21
+Patient: male, born 1988
+
+PAST MEDICAL HISTORY
+- Dental caries, diagnosed 1998-03-28
+- Chronic intractable migraine without aura, diagnosed 2002-05-15
+- Impacted molars, diagnosed 2002-08-11
+- Chronic pain, diagnosed 2002-12-19
+- Chronic low back pain, diagnosed 2014-02-03
+- h/o Overdose, resolved 2016-04-11
+
+FAMILY HISTORY
+Mother: Emphysematous bronchitis.
+Father: Nonproliferative retinopathy due to type 2 diabetes mellitus.
+Sister: Malignant neoplasm of breast.
+
+MEDICATIONS
+Current: ibuprofen (ibuprofen 400 MG Oral Tablet [Ibu]).
+
+REVIEW OF SYSTEMS
+Denies weight loss, fatigue, fever.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",yes,
+c649,When was this patient first diagnosed with hyperlipidemia?,Hyperlipidemia diagnosed,20/05/2016,"Outpatient note, 2023-07-01:
+OUTPATIENT NOTE
+Date: 2023-07-01
+Patient: female, born 1958
+
+PAST MEDICAL HISTORY
+- Seizure disorder, diagnosed 1967-03-18
+- Benign neoplasm of mouth region, diagnosed 1967-04-14
+- Gingivitis, diagnosed 1970-04-24
+- Anemia, diagnosed 1986-06-13
+- Prediabetes, diagnosed 1986-06-13
+- Body mass index 30+ - obesity, diagnosed 1992-06-19
+- Dental caries, diagnosed 2008-04-18
+- Ischemic heart disease, diagnosed 2013-05-03
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2013-05-13
+- Hyperlipidemia, diagnosed 2016-05-20
+- Malignant neoplasm of breast, diagnosed 2018-05-16
+- Osteoporosis, diagnosed 2018-06-01
+- Pulp and periapical tissue disease, diagnosed 2020-02-07
+- history of Acute bronchitis, resolved 2021-05-25
+
+FAMILY HISTORY
+Mother: Disorder of kidney due to 
+---
+Outpatient note, 2018-07-30:
+OUTPATIENT NOTE
+Date: 2018-07-30
+Patient: female, born 1958
+
+PAST MEDICAL HISTORY
+- Seizure disorder, diagnosed 1967-03-18
+- Benign neoplasm of mouth region, diagnosed 1967-04-14
+- Gingivitis, diagnosed 1970-04-24
+- Anemia, diagnosed 1986-06-13
+- Prediabetes, diagnosed 1986-06-13
+- Body mass index 30+ - obesity, diagnosed 1992-06-19
+- Dental caries, diagnosed 2008-04-18
+- IHD, diagnosed 2013-05-03
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2013-05-13
+- Hyperlipidemia, diagnosed 2016-05-20
+- Malignant neoplasm of breast, diagnosed 2018-05-16
+- Osteoporosis, diagnosed 2018-06-01
+- history of Acute bronchitis, resolved 2017-03-04
+- history of Social isolation, resolved 2017-05-26
+
+FAMILY HISTORY
+Mother: Disorder of kidney due to diabetes mellitus.
+
+MEDICATIONS
+
+---
+Outpatient note, 2018-07-11:
+OUTPATIENT NOTE
+Date: 2018-07-11
+Patient: female, born 1958
+
+PAST MEDICAL HISTORY
+- Seizure disorder, diagnosed 1967-03-18
+- Benign neoplasm of mouth region, diagnosed 1967-04-14
+- Gingivitis, diagnosed 1970-04-24
+- Anemia, diagnosed 1986-06-13
+- Prediabetes, diagnosed 1986-06-13
+- Body mass index 30+ - obesity, diagnosed 1992-06-19
+- Dental caries, diagnosed 2008-04-18
+- Ischemic heart disease, diagnosed 2013-05-03
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2013-05-13
+- Hyperlipidemia, diagnosed 2016-05-20
+- Malignant neoplasm of breast, diagnosed 2018-05-16
+- Osteoporosis, diagnosed 2018-06-01
+- history of Acute bronchitis, resolved 2017-03-04
+- history of Social isolation, resolved 2017-05-26
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: 
+---
+Outpatient note, 2018-07-01:
+OUTPATIENT NOTE
+Date: 2018-07-01
+Patient: female, born 1958
+
+PAST MEDICAL HISTORY
+- Seizure disorder, diagnosed 1967-03-18
+- Benign neoplasm of mouth region, diagnosed 1967-04-14
+- Gingivitis, diagnosed 1970-04-24
+- Anemia, diagnosed 1986-06-13
+- Prediabetes, diagnosed 1986-06-13
+- Body mass index 30+ - obesity, diagnosed 1992-06-19
+- Dental caries, diagnosed 2008-04-18
+- IHD, diagnosed 2013-05-03
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2013-05-13
+- Hyperlipidemia, diagnosed 2016-05-20
+- Malignant neoplasm of breast, diagnosed 2018-05-16
+- Osteoporosis, diagnosed 2018-06-01
+- history of Acute bronchitis, resolved 2017-03-04
+- history of Social isolation, resolved 2017-05-26
+
+FAMILY HISTORY
+Mother: Disorder of kidney due to diabetes mellitus.
+
+MEDICATIONS
+
+---
+Outpatient note, 2018-07-10:
+OUTPATIENT NOTE
+Date: 2018-07-10
+Patient: female, born 1958
+
+PAST MEDICAL HISTORY
+- Seizure disorder, diagnosed 1967-03-18
+- Benign neoplasm of mouth region, diagnosed 1967-04-14
+- Gingivitis, diagnosed 1970-04-24
+- Anemia, diagnosed 1986-06-13
+- Prediabetes, diagnosed 1986-06-13
+- Body mass index 30+ - obesity, diagnosed 1992-06-19
+- Dental caries, diagnosed 2008-04-18
+- Ischemic heart disease, diagnosed 2013-05-03
+- Abnormal findings diagnostic imaging heart+coronary circulat, diagnosed 2013-05-13
+- Hyperlipidemia, diagnosed 2016-05-20
+- Malignant neoplasm of breast, diagnosed 2018-05-16
+- Osteoporosis, diagnosed 2018-06-01
+- history of Acute bronchitis, resolved 2017-03-04
+- history of Social isolation, resolved 2017-05-26
+
+MEDICATIONS
+Current: no active prescriptions.
+Previously: ",yes,
+c663,Does this patient currently have prediabetes?,"Prediabetes, diagnosed 2020-10-28, listed as active (not resolved) in the most recent note",28/10/2020,"Outpatient note, 2025-12-07:
+OUTPATIENT NOTE
+Date: 2025-12-07
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 2020-10-28
+- Prediabetes, diagnosed 2020-10-28
+- h/o Contact dermatitis, resolved 2022-12-14
+- history of Misuses drugs, resolved 2023-11-01
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, abdominal pain, joint pain.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2025-11-13:
+OUTPATIENT NOTE
+Date: 2025-11-13
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 2020-10-28
+- Prediabetes, diagnosed 2020-10-28
+- h/o Contact dermatitis, resolved 2022-12-14
+- h/o Misuses drugs, resolved 2023-11-01
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies joint pain, dizziness, CP.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2025-08-29:
+OUTPATIENT NOTE
+Date: 2025-08-29
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 2020-10-28
+- Prediabetes, diagnosed 2020-10-28
+- history of Contact dermatitis, resolved 2022-12-14
+- history of Misuses drugs, resolved 2023-11-01
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies dizziness, weight loss, fever.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2025-08-02:
+OUTPATIENT NOTE
+Date: 2025-08-02
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 2020-10-28
+- Prediabetes, diagnosed 2020-10-28
+- history of Contact dermatitis, resolved 2022-12-14
+- history of Misuses drugs, resolved 2023-11-01
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies fatigue, shortness of breath, leg swelling.
+
+ASSESSMENT AND PLAN
+No evidence of Acute ST segment elevation myocardial infarction.
+
+---
+Outpatient note, 2025-06-17:
+OUTPATIENT NOTE
+Date: 2025-06-17
+Patient: male, born 1992
+
+PAST MEDICAL HISTORY
+- Anemia, diagnosed 2020-10-28
+- Prediabetes, diagnosed 2020-10-28
+- h/o Contact dermatitis, resolved 2022-12-14
+- h/o Misuses drugs, resolved 2023-11-01
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies blurred vision, leg swelling, fever.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+",yes,"""most recent note"" = most recent among the cited excerpts"
+c680,Why was naproxen discontinued?,Naproxen was discontinued because the course was completed (discontinued after 2018-08-15),15/08/2018,"Outpatient note, 2019-04-21:
+MS
+Denies joint pain, SOB, nausea.
+
+OBJECTIVE
+BMI 28.03 kg/m2; body weight 99 kg; diastolic blood pressure 73 mm[Hg]; HR 83 /min; SBP 131 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Started tramadol (tramadol hydrochloride 50 MG Oral Tablet).
+Naproxen was discontinued after 2018-08-15 due to the course being completed.
+No evidence of Prediabetes.
+",yes,
+c701,"What was this patient's most recent systolic blood pressure result, and on what date?",92 mm[Hg],13/03/2024,"Outpatient note, 2024-03-13:
+72 /min; systolic blood pressure 92 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Stable. Continue current management.
+
+---
+Outpatient note, 2024-03-13:
+OUTPATIENT NOTE
+Date: 2024-03-13
+Patient: male, born 1999
+
+PAST MEDICAL HISTORY
+- Misuses drugs, diagnosed 2018-03-08
+- Chronic periodontitis, diagnosed 2018-03-21
+- Dental caries, diagnosed 2018-03-21
+- Body mass index 30+ - obesity, diagnosed 2021-03-10
+- Chronic sinusitis, diagnosed 2023-08-26
+- history of Acute bacterial sinusitis, resolved 2023-09-02
+- h/o Gingivitis, resolved 2023-09-21
+
+FAMILY HISTORY
+Sister: Carcinoma in situ of prostate.
+Mother: Neoplasm of prostate.
+
+MEDICATIONS
+Current: no active prescriptions.
+
+REVIEW OF SYSTEMS
+Denies leg swelling, SOB, cough.
+
+OBJECTIVE
+BMI 30.05 kg/m2; wt 91.5 kg; DBP 70 mm[Hg]; HR 72 /min; systolic blood pressure 92 mm[Hg].
+Immunizations given: influenza, split virus, trivalent, injectable, preservative free.
+
+ASSESSMENT AND PLAN
+Stable. ",yes,
+c705,When was this patient first diagnosed with chronic sinusitis?,Chronic sinusitis first diagnosed,23/09/1976,"Outpatient note, 2021-02-13:
+OUTPATIENT NOTE
+Date: 2021-02-13
+Patient: female, born 1942
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1967-12-09
+- Chronic sinusitis, diagnosed 1976-09-23
+- Prediabetes, diagnosed 1992-10-03
+- Essential hypertension, diagnosed 2005-12-24
+- Metabolic syndrome X, diagnosed 2005-12-24
+- Gingivitis, diagnosed 2012-01-28
+- Disorder of kidney due to diabetes mellitus, diagnosed 2013-12-21
+- Chronic kidney disease stage 1, diagnosed 2013-12-21
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2017-05-06
+- Chronic kidney disease stage 2, diagnosed 2017-05-06
+- Crowding of teeth, diagnosed 2021-01-30
+- history of Social isolation, resolved 2020-08-15
+- history of Severe anxiety (panic), resolved 2020-08-15
+
+MEDICATIONS
+Current: insulin isophane / insulin, 
+---
+Outpatient note, 2021-01-16:
+OUTPATIENT NOTE
+Date: 2021-01-16
+Patient: female, born 1942
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1967-12-09
+- Chronic sinusitis, diagnosed 1976-09-23
+- Prediabetes, diagnosed 1992-10-03
+- HTN, diagnosed 2005-12-24
+- Metabolic syndrome X, diagnosed 2005-12-24
+- Gingivitis, diagnosed 2012-01-28
+- Disorder of kidney due to diabetes mellitus, diagnosed 2013-12-21
+- Chronic kidney disease stage 1, diagnosed 2013-12-21
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2017-05-06
+- Chronic kidney disease stage 2, diagnosed 2017-05-06
+- history of Social isolation, resolved 2020-08-15
+- history of Severe anxiety (panic), resolved 2020-08-15
+
+MEDICATIONS
+Current: insulin isophane / insulin, regular, human (insulin isophane, human 70 UNT/ML / insulin, 
+---
+Outpatient note, 2017-09-02:
+OUTPATIENT NOTE
+Date: 2017-09-02
+Patient: female, born 1942
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1967-12-09
+- Chronic sinusitis, diagnosed 1976-09-23
+- Prediabetes, diagnosed 1992-10-03
+- Essential hypertension, diagnosed 2005-12-24
+- Metabolic syndrome X, diagnosed 2005-12-24
+- Gingivitis, diagnosed 2012-01-28
+- Disorder of kidney due to diabetes mellitus, diagnosed 2013-12-21
+- Chronic kidney disease stage 1, diagnosed 2013-12-21
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2017-05-06
+- Chronic kidney disease stage 2, diagnosed 2017-05-06
+- h/o Social isolation, resolved 2017-02-25
+
+MEDICATIONS
+Current: insulin isophane / insulin, regular, human (insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension 
+---
+Outpatient note, 2020-08-29:
+OUTPATIENT NOTE
+Date: 2020-08-29
+Patient: female, born 1942
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1967-12-09
+- Chronic sinusitis, diagnosed 1976-09-23
+- Prediabetes, diagnosed 1992-10-03
+- HTN, diagnosed 2005-12-24
+- Metabolic syndrome X, diagnosed 2005-12-24
+- Gingivitis, diagnosed 2012-01-28
+- Disorder of kidney due to diabetes mellitus, diagnosed 2013-12-21
+- Chronic kidney disease stage 1, diagnosed 2013-12-21
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2017-05-06
+- Chronic kidney disease stage 2, diagnosed 2017-05-06
+- history of Social isolation, resolved 2020-08-15
+- history of Severe anxiety (panic), resolved 2020-08-15
+
+MEDICATIONS
+Current: insulin isophane / insulin, regular, human (insulin isophane, human 70 UNT/ML / insulin, 
+---
+Outpatient note, 2020-12-19:
+OUTPATIENT NOTE
+Date: 2020-12-19
+Patient: female, born 1942
+
+PAST MEDICAL HISTORY
+- Body mass index 30+ - obesity, diagnosed 1967-12-09
+- Chronic sinusitis, diagnosed 1976-09-23
+- Prediabetes, diagnosed 1992-10-03
+- HTN, diagnosed 2005-12-24
+- Metabolic syndrome X, diagnosed 2005-12-24
+- Gingivitis, diagnosed 2012-01-28
+- Disorder of kidney due to diabetes mellitus, diagnosed 2013-12-21
+- Chronic kidney disease stage 1, diagnosed 2013-12-21
+- Microalbuminuria due to type 2 diabetes mellitus, diagnosed 2017-05-06
+- Chronic kidney disease stage 2, diagnosed 2017-05-06
+- history of Social isolation, resolved 2020-08-15
+- history of Severe anxiety (panic), resolved 2020-08-15
+
+MEDICATIONS
+Current: insulin isophane / insulin, regular, human (insulin isophane, human 70 UNT/ML / insulin, ",yes,

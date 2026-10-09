@@ -1,0 +1,9 @@
+strategy,mode,questions,recall@1,recall@3,recall@5,recall@10,MRR
+fixed,bm25,512.0,0.695,0.801,0.848,0.902,0.764
+fixed,dense,512.0,0.574,0.664,0.701,0.785,0.64
+fixed,hybrid,512.0,0.637,0.748,0.795,0.844,0.708
+fixed,hybrid_recency,512.0,0.799,0.881,0.896,0.902,0.843
+section,bm25,512.0,0.646,0.781,0.816,0.869,0.727
+section,dense,512.0,0.604,0.68,0.695,0.754,0.654
+section,hybrid,512.0,0.646,0.758,0.779,0.855,0.716
+section,hybrid_recency,512.0,0.816,0.887,0.898,0.912,0.854

@@ -1,0 +1,128 @@
+version: 2
+
+# Keys and referential integrity. Date logic and value plausibility are in dq_violations;
+# conformance to the official v5.4 field list is tests/cdm_conforms_to_v54_spec.sql.
+# &person_fk / &visit_fk are YAML anchors: defined once, reused with *person_fk.
+
+models:
+  - name: person
+    columns:
+      - name: person_id
+        data_tests: [unique, not_null]
+      - name: gender_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: visit_occurrence
+    columns:
+      - name: visit_occurrence_id
+        data_tests: [unique, not_null]
+      - &person_fk
+        name: person_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('person'), field: person_id}
+      - name: visit_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+      - name: preceding_visit_occurrence_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('visit_occurrence'), field: visit_occurrence_id}
+
+  - name: observation_period
+    columns:
+      - name: observation_period_id
+        data_tests: [unique, not_null]
+      - name: person_id
+        data_tests:
+          - unique   # one period per person in this ETL (ADR-0008)
+          - not_null
+          - relationships:
+              arguments: {to: ref('person'), field: person_id}
+
+  - name: condition_occurrence
+    columns:
+      - name: condition_occurrence_id
+        data_tests: [unique, not_null]
+      - *person_fk
+      - &visit_fk
+        name: visit_occurrence_id
+        data_tests:
+          - relationships:
+              arguments: {to: ref('visit_occurrence'), field: visit_occurrence_id}
+      - name: condition_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: drug_exposure
+    columns:
+      - name: drug_exposure_id
+        data_tests: [unique, not_null]
+      - *person_fk
+      - *visit_fk
+      - name: drug_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+      - name: days_supply
+        description: Always NULL - the source has no days supply, and the CDM forbids deriving it.
+
+  - name: procedure_occurrence
+    columns:
+      - name: procedure_occurrence_id
+        data_tests: [unique, not_null]
+      - *person_fk
+      - *visit_fk
+      - name: procedure_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: measurement
+    columns:
+      - name: measurement_id
+        data_tests: [unique, not_null]
+      - *person_fk
+      - *visit_fk
+      - name: measurement_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+      - name: unit_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: observation
+    columns:
+      - name: observation_id
+        data_tests: [unique, not_null]
+      - *person_fk
+      - *visit_fk
+      - name: observation_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: death
+    columns:
+      - name: person_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments: {to: ref('person'), field: person_id}
+      - name: cause_concept_id
+        data_tests:
+          - relationships:
+              arguments: {to: "source('vocab', 'concept')", field: concept_id}
+
+  - name: cdm_source
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments: {expression: "vocabulary_version is not null"}

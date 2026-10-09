@@ -1,0 +1,21 @@
+concept_set,vocabulary_id,concept_code,include_descendants,concept_name
+t2dm,SNOMED,44054006,true,Type 2 diabetes mellitus
+t1dm,SNOMED,46635009,true,Type 1 diabetes mellitus
+metformin,RxNorm,6809,true,metformin (ingredient)
+hba1c,LOINC,4548-4,false,Hemoglobin A1c/Hemoglobin.total in Blood
+bmi,LOINC,39156-5,false,Body mass index (BMI) [Ratio]
+hypertension,SNOMED,38341003,true,Hypertensive disorder
+dyslipidaemia,SNOMED,55822004,true,Hyperlipidemia
+dyslipidaemia,SNOMED,302870006,true,Hypertriglyceridemia
+ischaemic_heart_disease,SNOMED,414545008,true,Ischemic heart disease
+chronic_kidney_disease,SNOMED,709044004,true,Chronic kidney disease
+obesity,SNOMED,414916001,true,Obesity
+obesity,SNOMED,162864005,true,Body mass index 30+ - obesity
+prediabetes,SNOMED,714628002,true,Prediabetes
+diabetic_complication,SNOMED,127013003,true,Disorder of kidney due to diabetes mellitus
+diabetic_complication,SNOMED,368581000119106,true,Neuropathy due to type 2 diabetes mellitus
+diabetic_complication,SNOMED,1551000119108,true,Nonproliferative retinopathy due to type 2 diabetes mellitus
+atc_a10_diabetes_drugs,ATC,A10,true,DRUGS USED IN DIABETES
+atc_c10_lipid_modifying,ATC,C10,true,LIPID MODIFYING AGENTS
+atc_c09_ras_agents,ATC,C09,true,AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+atc_c07_beta_blockers,ATC,C07,true,BETA BLOCKING AGENTS

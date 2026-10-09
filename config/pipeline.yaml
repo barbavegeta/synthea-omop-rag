@@ -1,0 +1,117 @@
+# Every parameter that can change a result lives in this file. Each run snapshots the
+# resolved config (and a fingerprint of it) into its run manifest under data/runs/.
+#
+# Profiles override the defaults key by key: `rwe all --profile ci` or RWE_PROFILE=ci.
+
+seed: 20261008            # global seed for Python-side randomness (sampling, splits)
+database: rwe             # each profile has its own database, so profiles never overwrite each other
+
+synthea:
+  version: 4.0.0          # GitHub release tag (without the v)
+  jar_sha256: ed43c20ad40ba5c3bc724503a5af032715fe3c491620b766148e7c2361e6ecc1
+  generate: true          # false: skip Synthea and ingest existing bundles from ingest.fhir_dir
+  population: 1000        # living patients requested; Synthea also emits the deceased
+  seed: 42                # -s  : patient generation
+  clinician_seed: 42      # -cs : provider assignment
+  reference_date: 2025-12-31  # -r : base date for the population's ages
+  end_date: 2025-12-31    # -e : simulation stops here. Synthea's default is the real today,
+                          #      which makes output depend on the day you run it
+  years_of_history: 10    # exporter.years_of_history: older encounters are not exported
+  state: Massachusetts
+
+ingest:
+  fhir_dir: data/synthea/default/fhir   # *.json or *.json.gz patient bundles
+
+vocab:
+  source: athena          # athena: OHDSI files you download; stub: synthetic, for CI only
+  dir: data/vocab         # unzipped Athena export (tab-delimited despite .csv)
+
+analysis:
+  output_dir: analysis/t2dm_metformin/outputs   # committed: small, deterministic tables + figure
+  min_cell_count: 5       # small-cell suppression, standard practice for releasing RWE tables
+
+eval:
+  # Evaluation patients: sampled from an eligible pool, then split dev/test BY PATIENT
+  pool_min_age: 18
+  pool_min_visits_in_window: 5
+  pool_max_visits_total: 300   # excludes ~16 people with hundreds of repeat visits
+  dev_patients: 75
+  test_patients: 150
+  questions_per_patient: 8
+  output_dir: eval             # committed question files + test-set hash (frozen)
+
+notes:
+  window_start: 2016-01-01     # notes for visits on/after this date
+  abbreviation_rate: 0.5       # share of eligible terms written abbreviated (HTN, T2DM, ...)
+  no_evidence_rate: 0.3        # share of notes with a "no evidence of <condition>" line
+  family_history_rate: 0.25    # share of later notes repeating the family history
+  stop_reason_rate: 0.6        # share of stopped drugs whose reason is written in a note
+
+rag:
+  embedder: bge                # bge (local sentence-transformers model) | fake (CI: no download)
+  model_name: BAAI/bge-small-en-v1.5
+  model_revision: 5c38ec7c405ec4b44b94cc5a9bb96e735b38267a   # exact Hugging Face commit
+  query_instruction: "Represent this sentence for searching relevant passages: "  # bge v1.5 query prefix
+  dim: 384
+  chunkings: [section, fixed]  # both built and compared on DEV (ADR-0012)
+  chunking: fixed              # selected by the pre-declared criterion, dev hybrid R@5: 0.795 vs 0.779
+  section_max_chars: 1000      # long sections split on line boundaries
+  fixed_chunk_chars: 800
+  fixed_overlap_chars: 160
+  rrf_k: 60                    # Reciprocal Rank Fusion constant (Cormack et al. 2009 default)
+  candidate_depth: 50          # per-retriever list length fed into fusion and MRR
+  # hybrid_recency (4th config, ADR-0012): for questions with a temporal cue, re-sort the
+  # hybrid top `recency_window` chunks newest-first. Window chosen on DEV from {5, 10, 20}.
+  temporal_cues: ["most recent", "latest", "currently", "current", "as of"]
+  recency_window: 20           # dev sweep {5, 10, 20}: R@5 0.795 / 0.840 / 0.896 (edge of grid)
+  k_values: [1, 3, 5, 10]
+  batch_size: 64
+
+llm:
+  # Environment variables override these at run time (and the effective values are logged
+  # in the run manifest): LLM_PROVIDER, LLM_MODEL, LLM_BUDGET_USD. Never put keys here;
+  # ANTHROPIC_API_KEY lives in .env (gitignored).
+  provider: anthropic          # anthropic | fake (CI: deterministic, no network, $0)
+  # Owner's decision after the dev pilot (ADR-0013, option C): Opus 5.5 answers; Sonnet 5.5
+  # rewrites notes. Pilot: both models 40/44 at low and medium effort, every error a retrieval
+  # miss; Opus $0.0137 vs Sonnet $0.0068 per answer.
+  model: claude-opus-5-5
+  effort: low                  # = medium on the pilot, slightly cheaper; set explicitly (Opus default is medium)
+  rewrite_model: claude-sonnet-5-5
+  max_tokens: 1500             # pilot max was 207 output tokens; 7x headroom. Also the worst-case reservation
+  budget_usd: 75               # HARD cap on total spend across all runs (ledger in Postgres)
+  top_k: 5                     # retrieved chunks shown to the model
+  retrieval_mode: hybrid_recency
+  fallbacks: default           # server-side refusal fallback (beta server-side-fallback-2026-07-01)
+  # USD per million tokens [input, output]. Source: Anthropic API pricing via the claude-api
+  # reference, cached 2026-09-25. Unknown served models (e.g. a fallback) are charged at
+  # the most expensive rate below, so the ledger never under-counts.
+  prices:
+    claude-opus-5-5: [4.0, 20.0]
+    claude-sonnet-5-5: [2.0, 10.0]
+    claude-haiku-4-5: [1.0, 5.0]
+    claude-opus-4-8: [5.0, 25.0]
+    claude-fable-5-1: [10.0, 50.0]
+
+profiles:
+  ci:
+    database: rwe_ci
+    synthea:
+      population: 20
+      generate: false     # CI has no Java/Synthea step; it loads the committed fixture
+    ingest:
+      fhir_dir: tests/fixtures/fhir_ci
+    vocab:
+      source: stub        # Athena content is licensed and multi-GB; CI builds a stub
+    analysis:
+      output_dir: data/analysis_ci   # never overwrite the committed outputs with stub results
+    eval:
+      pool_min_visits_in_window: 1
+      dev_patients: 3
+      test_patients: 5
+      output_dir: data/eval_ci       # never overwrite the frozen question set
+    rag:
+      embedder: fake                 # deterministic hashing embedder: no PyTorch in CI
+    llm:
+      provider: fake                 # no API calls, no key, $0 in CI
+      budget_usd: 0

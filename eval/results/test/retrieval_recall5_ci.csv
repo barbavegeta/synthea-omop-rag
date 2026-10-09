@@ -1,0 +1,9 @@
+corpus,mode,recall@5 [95% CI]
+clean,bm25,"0.845 [0.824, 0.865]"
+clean,dense,"0.719 [0.694, 0.743]"
+clean,hybrid,"0.775 [0.752, 0.796]"
+clean,hybrid_recency,"0.894 [0.875, 0.912]"
+messy,bm25,"0.831 [0.807, 0.853]"
+messy,dense,"0.710 [0.683, 0.736]"
+messy,hybrid,"0.806 [0.782, 0.829]"
+messy,hybrid_recency,"0.913 [0.895, 0.931]"

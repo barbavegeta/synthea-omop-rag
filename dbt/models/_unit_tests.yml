@@ -1,0 +1,127 @@
+version: 2
+
+# dbt unit tests: fixed input rows -> expected output rows, run against the model's SQL
+# without touching real data. They prove the logic, including that each DQ check fires
+# on the bad data it exists to catch. Columns not listed in a fixture are NULL.
+
+unit_tests:
+
+  # ---- data-quality checks fire on bad data -------------------------------------------
+
+  - name: dq_flags_event_beyond_death_grace_but_not_certification
+    description: >
+      A visit 4 days after death (death certification) is within the 60-day grace;
+      a visit 91 days after death is flagged, and also falls outside the observation period.
+    model: dq_violations
+    given:
+      - input: ref('person')
+        rows: [{person_id: 1, birth_datetime: "1950-01-01 00:00:00"}]
+      - input: ref('death')
+        rows: [{person_id: 1, death_date: "2020-01-01"}]
+      - input: ref('observation_period')
+        rows: [{person_id: 1, observation_period_start_date: "2010-01-01", observation_period_end_date: "2020-01-05"}]
+      - input: ref('visit_occurrence')
+        rows:
+          - {visit_occurrence_id: 10, person_id: 1, visit_start_date: "2020-01-05", visit_end_date: "2020-01-05"}
+          - {visit_occurrence_id: 11, person_id: 1, visit_start_date: "2020-04-01", visit_end_date: "2020-04-01"}
+      - {input: ref('condition_occurrence'), rows: []}
+      - {input: ref('drug_exposure'), rows: []}
+      - {input: ref('procedure_occurrence'), rows: []}
+      - {input: ref('measurement'), rows: []}
+      - {input: ref('observation'), rows: []}
+      - {input: ref('measurement_plausible_ranges'), rows: []}
+    expect:
+      rows:
+        - {check_name: event_after_death, cdm_table: visit_occurrence, record_id: 11}
+        - {check_name: event_outside_observation_period, cdm_table: visit_occurrence, record_id: 11}
+
+  - name: dq_flags_implausible_measurement_only
+    model: dq_violations
+    given:
+      - input: ref('person')
+        rows: [{person_id: 1, birth_datetime: "1950-01-01 00:00:00"}]
+      - {input: ref('death'), rows: []}
+      - input: ref('observation_period')
+        rows: [{person_id: 1, observation_period_start_date: "2010-01-01", observation_period_end_date: "2020-12-31"}]
+      - input: ref('measurement')
+        rows:
+          - {measurement_id: 1, person_id: 1, measurement_date: "2015-01-01", measurement_source_value: "4548-4", unit_source_value: "%", value_as_number: 2.3}
+          - {measurement_id: 2, person_id: 1, measurement_date: "2015-01-01", measurement_source_value: "4548-4", unit_source_value: "%", value_as_number: 6.5}
+      - input: ref('measurement_plausible_ranges')
+        rows: [{loinc_code: "4548-4", unit_code: "%", plausible_low: 3, plausible_high: 20, label: "Hemoglobin A1c"}]
+      - {input: ref('visit_occurrence'), rows: []}
+      - {input: ref('condition_occurrence'), rows: []}
+      - {input: ref('drug_exposure'), rows: []}
+      - {input: ref('procedure_occurrence'), rows: []}
+      - {input: ref('observation'), rows: []}
+    expect:
+      rows:
+        - {check_name: implausible_measurement_value, cdm_table: measurement, record_id: 1}
+
+  - name: dq_flags_end_before_start_and_event_before_birth
+    model: dq_violations
+    given:
+      - input: ref('person')
+        rows: [{person_id: 1, birth_datetime: "1950-01-01 00:00:00"}]
+      - {input: ref('death'), rows: []}
+      - input: ref('observation_period')
+        rows: [{person_id: 1, observation_period_start_date: "1950-01-01", observation_period_end_date: "2020-12-31"}]
+      - input: ref('condition_occurrence')
+        rows: [{condition_occurrence_id: 5, person_id: 1, condition_start_date: "2015-01-01", condition_end_date: "2014-12-31"}]
+      - input: ref('procedure_occurrence')
+        rows: [{procedure_occurrence_id: 6, person_id: 1, procedure_date: "1940-06-01"}]
+      - {input: ref('visit_occurrence'), rows: []}
+      - {input: ref('drug_exposure'), rows: []}
+      - {input: ref('measurement'), rows: []}
+      - {input: ref('observation'), rows: []}
+      - {input: ref('measurement_plausible_ranges'), rows: []}
+    expect:
+      rows:
+        - {check_name: end_before_start, cdm_table: condition_occurrence, record_id: 5}
+        - {check_name: event_before_birth, cdm_table: procedure_occurrence, record_id: 6}
+        - {check_name: event_outside_observation_period, cdm_table: procedure_occurrence, record_id: 6}
+
+  # ---- ETL logic --------------------------------------------------------------------------
+
+  - name: drug_end_date_follows_themis_convention
+    description: prescription -> start + 29; administration and immunization -> start.
+    model: drug_exposure
+    given:
+      - input: ref('int_events_mapped')
+        rows:
+          - {event_id: a, person_id: 1, domain_id: Drug, record_kind: prescription,   concept_id: 1, start_datetime: "2020-01-01 09:00:00"}
+          - {event_id: b, person_id: 1, domain_id: Drug, record_kind: administration, concept_id: 1, start_datetime: "2020-01-01 09:00:00"}
+          - {event_id: c, person_id: 1, domain_id: Drug, record_kind: immunization,   concept_id: 1, start_datetime: "2020-01-01 09:00:00"}
+          - {event_id: d, person_id: 1, domain_id: Measurement, record_kind: prescription, concept_id: 1, start_datetime: "2020-01-01 09:00:00"}
+    expect:
+      rows:
+        - {drug_exposure_id: 1, drug_exposure_end_date: "2020-01-30", drug_type_concept_id: 32838, days_supply: null}
+        - {drug_exposure_id: 2, drug_exposure_end_date: "2020-01-01", drug_type_concept_id: 32818, days_supply: null}
+        - {drug_exposure_id: 3, drug_exposure_end_date: "2020-01-01", drug_type_concept_id: 32818, days_supply: null}
+
+  - name: mapping_prefers_first_mapped_coding_and_routes_by_domain
+    description: >
+      e1: its only coding is unmapped, so concept 0, and a laboratory observation falls
+      back to Measurement. e2: first coding unmapped, second maps to a standard concept
+      in the Observation domain, so that coding is chosen and the domain follows the concept.
+    model: int_events_mapped
+    given:
+      - input: ref('int_events')
+        rows:
+          - {event_id: e1, source_table: observation, category: laboratory, patient_id: p,
+             codings: '[{"system": "http://loinc.org", "code": "X"}]', value_codings: '[]'}
+          - {event_id: e2, source_table: observation, category: laboratory, patient_id: p,
+             codings: '[{"system": "http://loinc.org", "code": "U"}, {"system": "http://snomed.info/sct", "code": "M"}]',
+             value_codings: '[]'}
+      - input: ref('int_concept_map')
+        rows:
+          - {fhir_system: "http://loinc.org", code: X, source_concept_id: 0, target_concept_id: 0, target_rank: 1, mapping_status: code_not_in_vocabulary}
+          - {fhir_system: "http://loinc.org", code: U, source_concept_id: 0, target_concept_id: 0, target_rank: 1, mapping_status: code_not_in_vocabulary}
+          - {fhir_system: "http://snomed.info/sct", code: M, source_concept_id: 50, target_concept_id: 100, target_domain_id: Observation, target_rank: 1, mapping_status: mapped}
+      - input: ref('int_person_ids')
+        rows: [{patient_id: p, person_id: 1}]
+      - {input: ref('int_visit_ids'), rows: []}
+    expect:
+      rows:
+        - {event_id: e1, source_code: X, concept_id: 0,   domain_id: Measurement}
+        - {event_id: e2, source_code: M, concept_id: 100, domain_id: Observation}

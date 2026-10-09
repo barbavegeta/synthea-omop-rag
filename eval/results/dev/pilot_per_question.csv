@@ -1,0 +1,177 @@
+run_name,question_id,template,phenomenon,model,effort,retrieval_mode,correct,grade_detail,evidence_shown
+pilot-opus55-low,p1000-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p1013-family_history,family_history,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-low,p1027-family_trap,family_trap,family_history,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p1060-current_medications,current_medications,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-low,p1060-family_history,family_history,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-low,p1074-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p1081-latest_lab,latest_lab,lookup,claude-opus-5-5,low,hybrid_recency,f,"{""date_ok"": false, ""value_ok"": false}",f
+pilot-opus55-low,p1129-stop_reason,stop_reason,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-low,p220-family_history,family_history,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-low,p23-family_history,family_history,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-low,p275-condition_historical,condition_historical,temporality,claude-opus-5-5,low,hybrid_recency,f,"{""yes_no"": ""yes""}",f
+pilot-opus55-low,p332-stop_reason,stop_reason,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-low,p345-stop_reason,stop_reason,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""overlap"": 0.67}",t
+pilot-opus55-low,p345-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p419-dx_date,dx_date,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""2025-09-04""]}",t
+pilot-opus55-low,p41-latest_lab,latest_lab,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""date_ok"": true, ""value_ok"": true}",t
+pilot-opus55-low,p463-dx_date,dx_date,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""2024-04-27""]}",t
+pilot-opus55-low,p463-family_trap,family_trap,family_history,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p485-negation_trap,negation_trap,negation,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p493-latest_lab,latest_lab,lookup,claude-opus-5-5,low,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-opus55-low,p534-condition_historical,condition_historical,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p537-condition_current,condition_current,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-low,p537-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p576-current_medications,current_medications,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-low,p587-condition_current,condition_current,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-low,p587-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p587-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p642-family_trap,family_trap,family_history,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p670-current_medications,current_medications,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": false}",t
+pilot-opus55-low,p754-condition_current,condition_current,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-low,p771-family_trap,family_trap,family_history,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p816-condition_historical,condition_historical,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",f
+pilot-opus55-low,p819-condition_historical,condition_historical,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p82-latest_lab,latest_lab,lookup,claude-opus-5-5,low,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-opus55-low,p82-stop_reason,stop_reason,note_only,claude-opus-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-low,p869-condition_current,condition_current,temporality,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-low,p891-negation_trap,negation_trap,negation,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p954-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p954-negation_trap,negation_trap,negation,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-low,p954-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-low,p972-current_medications,current_medications,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-low,p972-dx_date,dx_date,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""1998-07-03""]}",t
+pilot-opus55-low,p995-dx_date,dx_date,lookup,claude-opus-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""1999-04-19""]}",t
+pilot-opus55-low,p995-negation_trap,negation_trap,negation,claude-opus-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p1000-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p1013-family_history,family_history,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-medium,p1027-family_trap,family_trap,family_history,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p1060-current_medications,current_medications,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-medium,p1060-family_history,family_history,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-medium,p1074-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p1081-latest_lab,latest_lab,lookup,claude-opus-5-5,medium,hybrid_recency,f,"{""date_ok"": false, ""value_ok"": false}",f
+pilot-opus55-medium,p1129-stop_reason,stop_reason,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-medium,p220-family_history,family_history,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-medium,p23-family_history,family_history,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-opus55-medium,p275-condition_historical,condition_historical,temporality,claude-opus-5-5,medium,hybrid_recency,f,"{""yes_no"": ""yes""}",f
+pilot-opus55-medium,p332-stop_reason,stop_reason,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-medium,p345-stop_reason,stop_reason,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""overlap"": 0.67}",t
+pilot-opus55-medium,p345-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p419-dx_date,dx_date,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""2025-09-04""]}",t
+pilot-opus55-medium,p41-latest_lab,latest_lab,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""date_ok"": true, ""value_ok"": true}",t
+pilot-opus55-medium,p463-dx_date,dx_date,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""2024-04-27""]}",t
+pilot-opus55-medium,p463-family_trap,family_trap,family_history,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p485-negation_trap,negation_trap,negation,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p493-latest_lab,latest_lab,lookup,claude-opus-5-5,medium,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-opus55-medium,p534-condition_historical,condition_historical,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p537-condition_current,condition_current,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-medium,p537-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p576-current_medications,current_medications,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-medium,p587-condition_current,condition_current,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-medium,p587-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p587-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p642-family_trap,family_trap,family_history,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p670-current_medications,current_medications,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": false}",t
+pilot-opus55-medium,p754-condition_current,condition_current,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-medium,p771-family_trap,family_trap,family_history,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p816-condition_historical,condition_historical,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",f
+pilot-opus55-medium,p819-condition_historical,condition_historical,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p82-latest_lab,latest_lab,lookup,claude-opus-5-5,medium,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-opus55-medium,p82-stop_reason,stop_reason,note_only,claude-opus-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-opus55-medium,p869-condition_current,condition_current,temporality,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-opus55-medium,p891-negation_trap,negation_trap,negation,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p954-lab_not_documented,lab_not_documented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p954-negation_trap,negation_trap,negation,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-opus55-medium,p954-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-opus-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-opus55-medium,p972-current_medications,current_medications,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-opus55-medium,p972-dx_date,dx_date,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""1998-07-03""]}",t
+pilot-opus55-medium,p995-dx_date,dx_date,lookup,claude-opus-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""1999-04-19""]}",t
+pilot-opus55-medium,p995-negation_trap,negation_trap,negation,claude-opus-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p1000-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p1013-family_history,family_history,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-low,p1027-family_trap,family_trap,family_history,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p1060-current_medications,current_medications,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-low,p1060-family_history,family_history,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-low,p1074-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p1081-latest_lab,latest_lab,lookup,claude-sonnet-5-5,low,hybrid_recency,f,"{""date_ok"": false, ""value_ok"": false}",f
+pilot-sonnet55-low,p1129-stop_reason,stop_reason,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-low,p220-family_history,family_history,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-low,p23-family_history,family_history,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-low,p275-condition_historical,condition_historical,temporality,claude-sonnet-5-5,low,hybrid_recency,f,"{""yes_no"": ""yes""}",f
+pilot-sonnet55-low,p332-stop_reason,stop_reason,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-low,p345-stop_reason,stop_reason,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-low,p345-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p419-dx_date,dx_date,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""2025-09-04""]}",t
+pilot-sonnet55-low,p41-latest_lab,latest_lab,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""date_ok"": true, ""value_ok"": true}",t
+pilot-sonnet55-low,p463-dx_date,dx_date,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""2024-04-27""]}",t
+pilot-sonnet55-low,p463-family_trap,family_trap,family_history,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p485-negation_trap,negation_trap,negation,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p493-latest_lab,latest_lab,lookup,claude-sonnet-5-5,low,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-sonnet55-low,p534-condition_historical,condition_historical,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p537-condition_current,condition_current,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-low,p537-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p576-current_medications,current_medications,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-low,p587-condition_current,condition_current,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-low,p587-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p587-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p642-family_trap,family_trap,family_history,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p670-current_medications,current_medications,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": false}",t
+pilot-sonnet55-low,p754-condition_current,condition_current,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-low,p771-family_trap,family_trap,family_history,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p816-condition_historical,condition_historical,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",f
+pilot-sonnet55-low,p819-condition_historical,condition_historical,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p82-latest_lab,latest_lab,lookup,claude-sonnet-5-5,low,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-sonnet55-low,p82-stop_reason,stop_reason,note_only,claude-sonnet-5-5,low,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-low,p869-condition_current,condition_current,temporality,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-low,p891-negation_trap,negation_trap,negation,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p954-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p954-negation_trap,negation_trap,negation,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-low,p954-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,low,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-low,p972-current_medications,current_medications,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-low,p972-dx_date,dx_date,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""1998-07-03""]}",t
+pilot-sonnet55-low,p995-dx_date,dx_date,lookup,claude-sonnet-5-5,low,hybrid_recency,t,"{""predicted_dates"": [""1999-04-19""]}",t
+pilot-sonnet55-low,p995-negation_trap,negation_trap,negation,claude-sonnet-5-5,low,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p1000-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p1013-family_history,family_history,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-medium,p1027-family_trap,family_trap,family_history,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p1060-current_medications,current_medications,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-medium,p1060-family_history,family_history,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-medium,p1074-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p1081-latest_lab,latest_lab,lookup,claude-sonnet-5-5,medium,hybrid_recency,f,"{""date_ok"": false, ""value_ok"": false}",f
+pilot-sonnet55-medium,p1129-stop_reason,stop_reason,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-medium,p220-family_history,family_history,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-medium,p23-family_history,family_history,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes"", ""relative_ok"": true}",t
+pilot-sonnet55-medium,p275-condition_historical,condition_historical,temporality,claude-sonnet-5-5,medium,hybrid_recency,f,"{""yes_no"": ""yes""}",f
+pilot-sonnet55-medium,p332-stop_reason,stop_reason,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-medium,p345-stop_reason,stop_reason,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-medium,p345-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p419-dx_date,dx_date,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""2025-09-04""]}",t
+pilot-sonnet55-medium,p41-latest_lab,latest_lab,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""date_ok"": true, ""value_ok"": true}",t
+pilot-sonnet55-medium,p463-dx_date,dx_date,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""2024-04-27""]}",t
+pilot-sonnet55-medium,p463-family_trap,family_trap,family_history,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p485-negation_trap,negation_trap,negation,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p493-latest_lab,latest_lab,lookup,claude-sonnet-5-5,medium,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-sonnet55-medium,p534-condition_historical,condition_historical,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p537-condition_current,condition_current,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-medium,p537-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p576-current_medications,current_medications,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-medium,p587-condition_current,condition_current,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-medium,p587-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p587-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p642-family_trap,family_trap,family_history,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p670-current_medications,current_medications,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": false}",t
+pilot-sonnet55-medium,p754-condition_current,condition_current,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-medium,p771-family_trap,family_trap,family_history,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p816-condition_historical,condition_historical,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",f
+pilot-sonnet55-medium,p819-condition_historical,condition_historical,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p82-latest_lab,latest_lab,lookup,claude-sonnet-5-5,medium,hybrid_recency,f,"{""over_abstained"": true}",f
+pilot-sonnet55-medium,p82-stop_reason,stop_reason,note_only,claude-sonnet-5-5,medium,hybrid_recency,t,"{""overlap"": 1.0}",t
+pilot-sonnet55-medium,p869-condition_current,condition_current,temporality,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""yes""}",t
+pilot-sonnet55-medium,p891-negation_trap,negation_trap,negation,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p954-lab_not_documented,lab_not_documented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p954-negation_trap,negation_trap,negation,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t
+pilot-sonnet55-medium,p954-stop_reason_undocumented,stop_reason_undocumented,abstention,claude-sonnet-5-5,medium,hybrid_recency,t,"{""abstained"": true}",f
+pilot-sonnet55-medium,p972-current_medications,current_medications,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""extra"": [], ""missing"": [], ""empty_gold"": true}",t
+pilot-sonnet55-medium,p972-dx_date,dx_date,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""1998-07-03""]}",t
+pilot-sonnet55-medium,p995-dx_date,dx_date,lookup,claude-sonnet-5-5,medium,hybrid_recency,t,"{""predicted_dates"": [""1999-04-19""]}",t
+pilot-sonnet55-medium,p995-negation_trap,negation_trap,negation,claude-sonnet-5-5,medium,hybrid_recency,t,"{""yes_no"": ""no""}",t

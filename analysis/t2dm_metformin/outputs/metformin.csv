@@ -1,0 +1,8 @@
+Measure,Value
+Cohort persons,19
+Metformin in the 365 days before index,0 (0%)
+Started a metformin era on or after index (during follow-up),10 (53%)
+... of whom within 365 days of index,<5
+"Days from index to first metformin era, median [IQR]","742 [0, 1097] (n=10)"
+"Length of first metformin era in days, median [IQR]","30 [30, 30] (n=10)"
+"Metformin eras per treated person, median [IQR]","3 [2, 6] (n=10)"

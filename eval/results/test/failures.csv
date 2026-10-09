@@ -1,0 +1,6 @@
+run_name,family_attribution,other,over_abstention,retrieval_miss,temporal_error
+test-clean-bm25,0,1,16,90,3
+test-clean-dense,0,3,19,181,5
+test-clean-hybrid,0,3,12,138,7
+test-clean-hybrid_recency,0,3,12,71,4
+test-messy-hybrid_recency,1,4,8,56,1

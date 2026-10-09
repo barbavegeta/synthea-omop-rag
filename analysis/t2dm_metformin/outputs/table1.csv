@@ -1,0 +1,26 @@
+Characteristic,Value,Section
+Persons,19,
+"Age at index, mean (SD)",52.3 (12.1),Demographics
+"Age at index, median [IQR]","55 [44, 60] (n=19)",Demographics
+Sex: FEMALE,7 (37%),Demographics
+Sex: MALE,12 (63%),Demographics
+Race: Black or African American,<5,Demographics
+Race: White,18 (95%),Demographics
+Ethnicity: Hispanic or Latino,5 (26%),Demographics
+Ethnicity: Not Hispanic or Latino,14 (74%),Demographics
+Hypertension,8 (42%),History on or before index
+Dyslipidaemia,<5,History on or before index
+Obesity,14 (74%),History on or before index
+Prediabetes,15 (79%),History on or before index
+Ischaemic heart disease,6 (32%),History on or before index
+Chronic kidney disease,<5,History on or before index
+Diabetic kidney/eye/nerve complication,<5,History on or before index
+Metformin,0 (0%),Drugs in 365 days before index
+Any diabetes drug (ATC A10),0 (0%),Drugs in 365 days before index
+Lipid-modifying agent (ATC C10),<5,Drugs in 365 days before index
+Renin-angiotensin agent (ATC C09),<5,Drugs in 365 days before index
+Beta blocker (ATC C07),<5,Drugs in 365 days before index
+"BMI, kg/m2","29.1 [27.9, 29.8] (n=15)",Last value in 365 days before index
+"HbA1c %, plausible values only (primary)","7.28 [6.99, 7.45] (n=15)",Last value in 365 days before index
+"HbA1c %, all values (sensitivity)","7.28 [6.99, 7.45] (n=15)",Last value in 365 days before index
+"Follow-up, years","4.1 [1.8, 7.1] (n=19)",Index to end of observation or death

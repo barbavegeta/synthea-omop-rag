@@ -1,0 +1,29 @@
+loinc_code,unit_code,plausible_low,plausible_high,label
+72514-3,{score},0,10,Pain severity 0-10
+8480-6,mm[Hg],50,260,Systolic blood pressure
+8462-4,mm[Hg],20,160,Diastolic blood pressure
+29463-7,kg,0.5,350,Body weight
+8302-2,cm,30,230,Body height
+39156-5,kg/m2,8,90,Body mass index
+8867-4,/min,20,250,Heart rate
+9279-1,/min,4,70,Respiratory rate
+8310-5,Cel,30,45,Body temperature
+2339-0,mg/dL,10,1500,Glucose (blood)
+2345-7,mg/dL,10,1500,Glucose (serum/plasma)
+4548-4,%,3,20,Hemoglobin A1c
+6298-4,mmol/L,1.5,10,Potassium (blood)
+2823-3,mmol/L,1.5,10,Potassium (serum/plasma)
+2947-0,mmol/L,100,180,Sodium (blood)
+2951-2,mmol/L,100,180,Sodium (serum/plasma)
+2069-3,mmol/L,60,150,Chloride (blood)
+20565-8,mmol/L,5,60,Carbon dioxide total (blood)
+38483-4,mg/dL,0.1,25,Creatinine (blood)
+2160-0,mg/dL,0.1,25,Creatinine (serum/plasma)
+6299-2,mg/dL,1,200,Urea nitrogen (blood)
+49765-1,mg/dL,3,20,Calcium (blood)
+17861-6,mg/dL,3,20,Calcium (serum/plasma)
+33914-3,mL/min/{1.73_m2},0,200,eGFR
+2093-3,mg/dL,50,1000,Total cholesterol
+2571-8,mg/dL,10,5000,Triglycerides
+2085-9,mg/dL,5,200,HDL cholesterol
+18262-6,mg/dL,0,600,LDL cholesterol

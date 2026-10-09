@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: dq_violations
+    description: >
+      One row per data-quality violation in the CDM (ADR-0009). Severity per check:
+      error = the ETL produced impossible data and the build must stop; warn = a known,
+      documented property of the source, reported with counts but not "fixed".
+    data_tests:
+      - no_dq_violations:
+          arguments: {check_name: event_after_death}
+      - no_dq_violations:
+          arguments: {check_name: event_before_birth}
+      - no_dq_violations:
+          arguments: {check_name: end_before_start}
+      - no_dq_violations:
+          arguments: {check_name: death_before_birth}
+      - no_dq_violations:
+          arguments: {check_name: observation_period_end_before_start}
+      - no_dq_violations:
+          # Synthea timestamps some screenings/vaccinations 1-7 days after the linked
+          # encounter's end; the observation period is visit-derived (ADR-0008).
+          arguments: {check_name: event_outside_observation_period}
+          config: {severity: warn}
+      - no_dq_violations:
+          # Source values outside physiological limits (e.g. HbA1c < 3%). Reported, not altered.
+          arguments: {check_name: implausible_measurement_value}
+          config: {severity: warn}
+
+  - name: dq_mapping_coverage
+    description: Share of records and distinct source codes mapped to a standard concept, per CDM table.
+    columns:
+      - name: pct_records_mapped
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 95
+                where: "cdm_table not like '(dropped%'"
+              config: {severity: warn}
+
+  - name: dq_unmapped_codes
+    description: Source codes without a standard concept, with reason and record count.

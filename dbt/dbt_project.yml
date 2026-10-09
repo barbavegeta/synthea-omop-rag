@@ -1,0 +1,49 @@
+name: rwe_omop
+version: "1.0.0"
+config-version: 2
+profile: rwe
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: target
+clean-targets: [target, dbt_packages]
+
+# Layering (ADR-0006):
+#   stg  one model per FHIR resource type: typed field extraction only, no business logic
+#   int  ids, the shared concept-mapping engine, domain routing
+#   cdm  OMOP CDM v5.4 tables
+#   dq   data-quality findings and mapping coverage
+models:
+  rwe_omop:
+    staging:      {+schema: stg, +materialized: table}
+    intermediate: {+schema: int, +materialized: table}
+    cdm:          {+schema: cdm, +materialized: table}
+    dq:           {+schema: dq,  +materialized: table}
+    analysis:     {+schema: results, +materialized: table}   # OHDSI-style results schema (cohorts)
+
+seeds:
+  rwe_omop:
+    +schema: ref
+
+vars:
+  # Fixed OMOP concept ids (Type Concept and Gender vocabularies). A dbt test checks each
+  # one exists in the loaded vocabulary with the expected name, so a wrong id fails loudly.
+  type_ehr: 32817                 # "EHR"
+  type_ehr_prescription: 32838    # "EHR prescription"
+  type_ehr_administration: 32818  # "EHR administration record"
+  type_ehr_note: 32831            # "EHR note"
+  type_ehr_outpatient_note: 32834 # "EHR outpatient note"
+  type_ehr_er_note: 32826         # "EHR emergency room note"
+  type_ehr_inpatient_note: 32829  # "EHR inpatient note"
+  note_class_progress_note: 3000735  # LOINC "Progress note"
+  encoding_utf8: 32678            # "UTF-8"
+  language_english: 4180186       # "English language"
+  # THEMIS convention for a written prescription without days supply (ADR-0007)
+  prescription_days: 30
+  # Data cut-off: Synthea's end date (-e). Open-ended records stop here.
+  data_end_date: "2025-12-31"
+  # Events up to this many days after death are plausible (death certification).
+  # Matches OHDSI DataQualityDashboard plausibleBeforeDeath (ADR-0009).
+  death_grace_days: 60

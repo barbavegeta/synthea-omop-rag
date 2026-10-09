@@ -1,0 +1,26 @@
+# Secrets and local settings: .env and any copy or backup of it, except the template
+.env
+.env.*
+!.env.example
+
+# Generated data: Synthea output, Athena vocabularies (licensed, not redistributable),
+# model weights, caches and run manifests. Everything here is reproducible from config.
+data/
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

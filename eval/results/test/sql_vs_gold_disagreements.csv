@@ -1,0 +1,2 @@
+question_id,person_id,template,sql_answerable,correct,gold,sql
+p51-family_trap,51,family_trap,True,0.0,"{""type"": ""yes_no"", ""value"": false}","{""status"": ""answered"", ""yes_no"": ""yes"", ""items"": [], ""explanation"": ""sql""}"

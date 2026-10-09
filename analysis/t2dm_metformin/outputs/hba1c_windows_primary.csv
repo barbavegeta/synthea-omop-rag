@@ -1,0 +1,7 @@
+Window from index,Persons,Values,"Per-person mean HbA1c %, median [IQR]"
+baseline (-365 to 0 d),15,17,"7.03 [6.98, 7.31] (n=15)"
+0-6 months,<5,1,"n<5, not shown"
+6-12 months,<5,26,"n<5, not shown"
+1-2 years,10,24,"7.07 [6.67, 7.37] (n=10)"
+2-5 years,11,47,"6.60 [6.31, 6.94] (n=11)"
+>5 years (beyond the 5-year horizon; not interpreted),8,555,"4.75 [3.66, 6.07] (n=8)"

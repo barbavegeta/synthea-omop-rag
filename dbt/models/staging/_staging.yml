@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_fhir__patients
+    description: One row per FHIR Patient.
+    columns:
+      - name: patient_id
+        data_tests: [unique, not_null]
+      - name: birth_date
+        data_tests: [not_null]
+      - name: gender
+        data_tests:
+          - accepted_values:
+              arguments: {values: ["male", "female", "other", "unknown"]}
+
+  - name: stg_fhir__encounters
+    description: One row per FHIR Encounter.
+    columns:
+      - name: encounter_id
+        data_tests: [unique, not_null]
+      - name: start_datetime
+        data_tests: [not_null]
+
+  - name: stg_fhir__conditions
+    columns:
+      - name: condition_id
+        data_tests: [unique, not_null]
+
+  - name: stg_fhir__procedures
+    columns:
+      - name: procedure_id
+        data_tests: [unique, not_null]
+
+  - name: stg_fhir__observations
+    description: One row per observation value (panel components unnested).
+    columns:
+      - name: observation_value_id
+        data_tests: [unique, not_null]
+
+  - name: stg_fhir__drug_records
+    description: Prescriptions, administrations and immunizations, one row each.
+    columns:
+      - name: drug_record_id
+        data_tests: [unique, not_null]
+      - name: record_kind
+        data_tests:
+          - accepted_values:
+              arguments: {values: ["prescription", "administration", "immunization"]}
